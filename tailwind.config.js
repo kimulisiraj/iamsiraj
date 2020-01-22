@@ -2,10 +2,14 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: '1em'
+      padding: '2em'
     },
 
     extend: {
+      fontSize: {
+        '7xl': '5rem',
+        '8xl': '6rem'
+      },
       height: {
         '72': '18rem',
         '80': '20rem'
@@ -13,6 +17,7 @@ module.exports = {
       colors: {
         blue: '#4826D4',
         purple: '#401D6D',
+        'purple-darker': '#1C0734',
         red: '#CD4C48',
         pink: '#B12475'
       }
