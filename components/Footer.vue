@@ -1,5 +1,5 @@
 <template>
-  <footer id="menu" class="bg-purple-darker min-h-screen flex items-center" style="max-height: 400px">
+  <footer id="menu" class="mt-24 md:mt-32 bg-black h-screen flex items-center">
     <div class="container py-16">
       <div class="">
         <div class="text-white">
@@ -9,9 +9,24 @@
           </h3>
         </div>
         <div>
-          <a href="" class="block mt-4 text-lg  font-bold md:text-xl text-yellow">Tweeter</a>
-          <a href="" class="block mt-4 text-lg  font-bold md:text-xl text-yellow">Dribble</a>
-          <a href="" class="block mt-4 text-lg  font-bold md:text-xl text-yellow">LinkedIn</a>
+          <a
+            href="https://twitter.com/kimulisiraj"
+            target="_blank"
+            title="@kimulisiraj"
+            class="block mt-4 text-lg  font-bold md:text-xl text-yellow"
+          >Twitter</a>
+          <a
+            href="https://dribbble.com/kimulisiraj"
+            target="_blank"
+            title="dribbble"
+            class="block mt-4 text-lg  font-bold md:text-xl text-yellow"
+          >Dribbble</a>
+          <a
+            href="https://linkedin.com/in/kimulisiraj"
+            target="_blank"
+            title="linkedin"
+            class="block mt-4 text-lg  font-bold md:text-xl text-yellow"
+          >LinkedIn</a>
         </div>
       </div>
       <hr class="border-t-2 border-white opacity-25 mt-10">
@@ -20,9 +35,9 @@
           <nuxt-link to="/" class="text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">
             Home
           </nuxt-link>
-          <a href="" class="text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">About</a>
+          <a href="/about" class="text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">About</a>
           <a href="" class="text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">Work</a>
-          <a href="" class="text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">Blog</a>
+          <a href="/blog" class="text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">Blog</a>
         </div>
         <div class="opacity-50 mt-16 md:mt-0 text-white opacity-50 text-sm hidden md:block">
           All Rights Reserved 2020
@@ -31,9 +46,3 @@
     </div>
   </footer>
 </template>
-
-<script>
-export default {
-  name: 'Footer'
-}
-</script>
