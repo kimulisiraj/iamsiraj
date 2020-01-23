@@ -3,9 +3,9 @@
     <div class="font-bold">
       I'm Siraj Kimuli
     </div>
-    <div class="font-bold border-2 border-white text-sm py-2 px-4">
+    <nuxt-link to="/#menu" class="font-bold border-2 border-white text-sm py-2 px-4">
       Menu
-    </div>
+    </nuxt-link>
   </nav>
 </template>
 
