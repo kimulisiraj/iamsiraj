@@ -3,7 +3,7 @@
     <a href="/" class="font-bold">
       I'm Siraj Kimuli
     </a>
-    <a href="/#menu" class="font-bold border-2 border-white text-sm py-2 px-4">
+    <a href="#menu" class="font-bold border-2 border-white text-sm py-2 px-4">
       Menu
     </a>
   </nav>

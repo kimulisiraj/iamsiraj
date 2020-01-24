@@ -35,9 +35,15 @@
           <nuxt-link to="/" class="text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">
             Home
           </nuxt-link>
-          <a href="/about" class="text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">About</a>
-          <a href="" class="text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">Work</a>
-          <a href="/blog" class="text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">Blog</a>
+          <nuxt-link to="/about" class="text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">
+            About
+          </nuxt-link>
+          <nuxt-link to="work" class="text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">
+            Work
+          </nuxt-link>
+          <nuxt-link to="/blog" class="text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">
+            Blog
+          </nuxt-link>
         </div>
         <div class="opacity-50 mt-16 md:mt-0 text-white opacity-50 text-sm hidden md:block">
           All Rights Reserved 2020

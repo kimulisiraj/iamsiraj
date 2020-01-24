@@ -1,6 +1,7 @@
 html, body {
   //background: #F9F9F9;
   @apply bg-gray-100;
+  scroll-behavior: smooth;
 }
 @screen lg {
   .container {
@@ -9,7 +10,18 @@ html, body {
 }
 
 .blog {
-  background: #CD4C48 url("~assets/images/typewriter.jpg");
-  background-repeat: no-repeat;
-  background-position: 100% 50%;
+  background: #CD4C48 url("~assets/images/typewriter.jpg") no-repeat 100% 50%;
+}
+
+.about {
+  background: #B12475 url("~assets/images/camera.jpg") no-repeat 100% 50%;
+}
+
+.work {
+  background: #4826D4 url("~assets/images/pencil.jpg") no-repeat 100% 100%;
+}
+
+.banner {
+  height: 98vh;
+  max-height: 800px;
 }
