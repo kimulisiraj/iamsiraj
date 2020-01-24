@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://iamsiraj.netlify.com/* https://kimulisiraj.me/:splat 301!

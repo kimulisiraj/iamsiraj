@@ -3,12 +3,12 @@
     <!--introduction banner-->
     <div class="bg-pink">
       <div class="container flex items-center banner about">
-        <div class="w-full sm:w-4/5 md:w-2/3 lg:w-1/2 ml-0 lg:ml-24 mt-32">
+        <div class="w-full lg:w-2/5 ml-0 lg:ml-24 mt-32">
           <h1 class="text-5xl sm:text-6xl md:text-8xl font-extrabold text-white leading-none">
             About
           </h1>
           <p class="text-white opacity-75 mt-8 text-xlg">
-            Know more about the author and why this website developed. It will help us connect easier.
+            Know more about me (the author) and why this website developed. It will help us connect easier.
           </p>
           <a href="#content" class="block mt-8 md:mt-16">
             <ArrowDown />

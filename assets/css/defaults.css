@@ -1,0 +1,65 @@
+html, body {
+  @apply bg-gray-100;
+  scroll-behavior: smooth;
+}
+
+@screen lg {
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+@screen md {
+  .blog {
+    background: #CD4C48 url("~assets/images/typewriter.jpg") no-repeat 100% 50%;
+  }
+
+  .about {
+    background: #B12475 url("~assets/images/camera.jpg") no-repeat 100% 50%;
+  }
+
+  .work {
+    background: #4826D4 url("~assets/images/pencil.jpg") no-repeat 100% 100%;
+  }
+
+  .content h2 {
+    @apply text-4xl;
+  }
+
+  .content h3 {
+    @apply text-3xl;
+  }
+}
+
+.content {
+  @apply font-serif;
+}
+
+.content h2 {
+  @apply text-4xl font-extrabold leading-tight mt-8;
+}
+
+.content h3 {
+  @apply font-extrabold text-2xl mt-8;
+}
+
+.content p {
+  @apply mt-2;
+}
+
+.content h4{
+  @apply mt-4 font-bold;
+}
+
+.content ul {
+  @apply mt-4 ml-4;
+}
+
+.content ul li, .content ul ol{
+  @apply mt-4 list-decimal;
+}
+
+.banner {
+  height: 100vh;
+  max-height: 800px;
+}

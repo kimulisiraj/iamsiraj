@@ -1,3 +1,3 @@
-# iamsiraje
+# Personal Website
+To view the site visit [kimuilisiraj.me](https://kimulisiraj.me)
 
-> Siraj&#39;s personal website.
