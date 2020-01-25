@@ -19,23 +19,20 @@
       <img src="~/assets/images/mobile-phone.jpg" alt="" class="h-72 w-full object-cover">
     </div>
 
-    <!--Blog Listing-->
+    <!--post content-->
     <div id="content" class="container mt-8 overflow-x-hidden">
       <div class="w-full lg:w-3/5 mx-auto content">
-        <p>
-          The "back button" is one of the components with least user experience, continue reading and explain why and
-          how this back is a mess.
+        <p class="font-semibold">
+          The “back button” is one of the components with least user experience!, continue reading and explain why and how this back is a mess.
         </p>
 
         <p>
-          As most of the back it navigates you back to the recent item in the stack, oh wait... you may not know which
-          item /page is on the top of the stack hence visiting unwanted page.
+          As most of the “back buttons” it navigates you back to the recent item in the history stack, oh wait... you may not know which item or page is on top of the stack hence visiting unintended page.
         </p>
 
         <h3>The Android messed up "button back"..!</h3>
         <p>
-          If you're an android user or ever owned any gadget running android os you're familiar with "back button"
-          always (99% of all the time) placed at the button right of the phone/gadget
+          If you're an android user or ever owned any gadget running android os you're familiar with "back button" always (99% of all the time) placed at the button right of the phone/gadget.
         </p>
         <ul>
           <li>

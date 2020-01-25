@@ -3,7 +3,7 @@
     <div class="container py-16">
       <div class="">
         <div class="text-white">
-          <p>Don’t be a strange</p>
+          <p>Don’t be a stranger</p>
           <h3 class="text-4xl md:text-5xl font-extrabold leading-tight text-white">
             Lets Connect
           </h3>
@@ -14,19 +14,25 @@
             target="_blank"
             title="@kimulisiraj"
             class="block mt-4 text-lg  font-bold md:text-xl text-yellow"
-          >Twitter</a>
+          >
+            Twitter
+          </a>
           <a
             href="https://dribbble.com/kimulisiraj"
             target="_blank"
             title="dribbble"
             class="block mt-4 text-lg  font-bold md:text-xl text-yellow"
-          >Dribbble</a>
+          >
+            Dribbble
+          </a>
           <a
             href="https://linkedin.com/in/kimulisiraj"
             target="_blank"
             title="linkedin"
             class="block mt-4 text-lg  font-bold md:text-xl text-yellow"
-          >LinkedIn</a>
+          >
+            LinkedIn
+          </a>
         </div>
       </div>
       <hr class="border-t-2 border-white opacity-25 mt-10">

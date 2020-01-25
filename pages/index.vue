@@ -65,26 +65,21 @@
       </h2>
       <div class="flex flex-wrap -mx-6 overflow-x-hidden">
         <BlogCard color="bg-red" to="/blog/the-back-button-a-mistake-google-regrets">
-          The “Back Button”
-          - A Mistake that
-          google regrets
+          The “Back Button” - A Mistake that google regrets
           <template v-slot:icon>
             <BackButtonArt class="h-16" />
           </template>
         </BlogCard>
 
         <BlogCard color="bg-yellow" to="blog/design-free-online-resources">
-          Free Online Resources for
-          UX/UI Design
+          Free Online Resources for UX/UI Design
           <template v-slot:icon>
             <ResourcesArt class="h-16" />
           </template>
         </BlogCard>
 
-        <BlogCard>
-          Breaking current
-          WorkFlow for better
-          User Experience
+        <BlogCard to="/blog/breaking-the-current-workflow-for-better-ux">
+          Breaking current WorkFlow for better User Experience
           <template v-slot:icon>
             <WorkflowArt class="h-16" />
           </template>
