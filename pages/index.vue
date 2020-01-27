@@ -3,7 +3,7 @@
     <!--introduction banner-->
     <div class="bg-purple">
       <div class="container flex items-center banner">
-        <div class="w-full md:w-2/3 lg:w-1/2 ml-0 lg:ml-24 mt-32">
+        <div class="w-full md:w-2/3 lg:w-1/2 ml-0 lg:ml-24 mt-24 md:mt-32">
           <h1 class="text-5xl sm:text-6xl md:text-8xl font-extrabold text-white leading-none">
             Software Engineer
           </h1>

@@ -3,7 +3,7 @@
     <!--introduction banner-->
     <div class="bg-red">
       <div class="container flex items-center banner blog">
-        <div class="w-full lg:w-2/5 ml-0 lg:ml-24 mt-32">
+        <div class="w-full lg:w-2/5 ml-0 lg:ml-24 mt-24 md:mt-32">
           <h1 class="text-5xl sm:text-6xl md:text-8xl font-extrabold text-white leading-none">
             Blog
           </h1>

@@ -1,0 +1,37 @@
+.content h2 {
+  @apply text-4xl font-extrabold leading-tight mt-8;
+}
+.content h3 {
+  @apply font-extrabold text-2xl mt-8;
+}
+
+.content p {
+  @apply mt-2;
+}
+
+.content h4{
+  @apply mt-4 font-bold;
+}
+
+.content ul {
+  @apply mt-4 ml-4;
+}
+
+.content ul li, .content ul ol{
+  @apply mt-4 list-decimal;
+}
+
+.content li, .content ol, .content p {
+  @apply text-gray-800;
+}
+
+@screen md {
+  .content h2 {
+    @apply text-4xl;
+  }
+
+  .content h3 {
+    @apply text-3xl;
+  }
+}
+

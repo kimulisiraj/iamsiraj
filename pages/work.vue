@@ -3,7 +3,7 @@
     <!--introduction banner-->
     <div class="bg-blue">
       <div class="container flex items-center h-screen work banner">
-        <div class="w-full lg:w-2/5 ml-0 lg:ml-24 mt-32">
+        <div class="w-full lg:w-2/5 ml-0 lg:ml-24 mt-24 md:mt-32">
           <h1 class="text-5xl sm:text-6xl md:text-8xl font-extrabold text-white leading-none">
             Work
           </h1>
@@ -113,6 +113,42 @@
       <h2 class="text-4xl md:text-5xl font-extrabold leading-tight mt-24">
         Websites
       </h2>
+
+      <div class="flex flex-wrap -mx-6 overflow-x-hidden py-8">
+        <!--flt-->
+        <div class="w-full md:w-1/3 p-6">
+          <div class="flex shadow-xl bg-white h-80 block p-8">
+            <div class="mt-auto">
+              <h4 class="font-extrabold text-xl md:text-2xl">
+                FutureLink Technologies
+              </h4>
+              <p class="text-gray-800">
+                Finatech
+              </p>
+              <p class="mt-4">
+                <a href="https://fltug.com.com" class="text-blue" target="_blank">fltug.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--ellington safaris-->
+        <div class="w-full md:w-1/3 p-6">
+          <div class="flex shadow-xl bg-white h-80 block p-8">
+            <div class="mt-auto">
+              <h4 class="font-extrabold text-xl md:text-2xl">
+                Ellington Safaris Ltd
+              </h4>
+              <p class="text-gray-800">
+                Tours & Travel
+              </p>
+              <p class="mt-4">
+                <a href="http://ellingtonsafaris.com" class="text-blue" target="_blank">ellingtonsafaris.com</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>
