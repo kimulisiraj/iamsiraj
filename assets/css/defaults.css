@@ -9,57 +9,44 @@ html, body {
   }
 }
 
-@screen md {
-  .blog {
-    background: #CD4C48 url("~assets/images/typewriter.jpg") no-repeat 100% 50%;
-  }
-
-  .about {
-    background: #B12475 url("~assets/images/camera.jpg") no-repeat 100% 50%;
-  }
-
-  .work {
-    background: #4826D4 url("~assets/images/pencil.jpg") no-repeat 100% 100%;
-  }
-
-  .content h2 {
-    @apply text-4xl;
-  }
-
-  .content h3 {
-    @apply text-3xl;
-  }
+.banner {
+  height: 90vh;
 }
 
 .content {
   @apply font-serif;
 }
 
-.content h2 {
-  @apply text-4xl font-extrabold leading-tight mt-8;
+.blog {
+  background: #CD4C48 url("~assets/images/typewriter.jpg") no-repeat;
 }
 
-.content h3 {
-  @apply font-extrabold text-2xl mt-8;
+.about {
+  background: #B12475 url("~assets/images/camera.jpg") no-repeat;
 }
 
-.content p {
-  @apply mt-2;
+.work {
+  background: #4826D4 url("~assets/images/pencil.jpg") no-repeat;
 }
 
-.content h4{
-  @apply mt-4 font-bold;
+.blog, .about, .work {
+  background-position: 100% 100%;
+  background-size: 50%;
 }
 
-.content ul {
-  @apply mt-4 ml-4;
-}
 
-.content ul li, .content ul ol{
-  @apply mt-4 list-decimal;
-}
+@screen md {
+  .blog, .about, .work {
+    background-size: auto;
+    background-position: 100% 50%;
+  }
+  .work {
+    background-position: 100% 100%;
+  }
 
-.banner {
-  height: 100vh;
-  max-height: 800px;
+  .banner {
+    height: 100vh;
+    max-height: 800px;
+  }
+
 }
