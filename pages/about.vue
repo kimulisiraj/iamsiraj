@@ -9,7 +9,7 @@
           </h1>
           <p class="text-white opacity-75 mt-8 text-xlg">
             I passionate about photography and cinematography though it's just a hobby! anyway scroll and
-            know more about me (the author) and why this I built website was developed. It will help us connect easier.
+            know more about me (the author) and why I this built website. It will help us connect easier.
           </p>
           <a href="#content" class="block mt-8 md:mt-16">
             <ArrowDown />
