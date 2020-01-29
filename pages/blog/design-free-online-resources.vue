@@ -28,7 +28,7 @@
     <!--post content-->
     <div id="content" class="container mt-8 overflow-x-hidden">
       <div class="w-full lg:w-3/5 mx-auto content">
-        <h3>Content Coming Soon...!</h3>
+        <h3>Content Coming Soon..!</h3>
       </div>
     </div>
   </section>
