@@ -16,6 +16,7 @@
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
+    "@nuxtjs/sitemap": "^2.0.1",
     "cross-env": "^5.2.0",
     "koa": "^2.6.2",
     "less-loader": "^5.0.0",
