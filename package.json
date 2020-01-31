@@ -18,6 +18,7 @@
     "@nuxtjs/pwa": "^3.0.0-0",
     "@nuxtjs/sitemap": "^2.0.1",
     "cross-env": "^5.2.0",
+    "ikonate": "^1.1.1",
     "koa": "^2.6.2",
     "less-loader": "^5.0.0",
     "node-sass": "^4.13.1",

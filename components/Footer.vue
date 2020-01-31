@@ -38,16 +38,16 @@
       <hr class="border-t-2 border-white opacity-25 mt-10">
       <div class="flex flex-wrap justify-between py-8">
         <div class="w-full md:w-2/3">
-          <nuxt-link to="/" class="text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">
+          <nuxt-link to="/" class="hover:opacity-100 text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">
             Home
           </nuxt-link>
-          <nuxt-link to="/about" class="text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">
+          <nuxt-link to="/about" class="hover:opacity-100 text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">
             About
           </nuxt-link>
-          <nuxt-link to="work" class="text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">
+          <nuxt-link to="work" class="hover:opacity-100 text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">
             Work
           </nuxt-link>
-          <nuxt-link to="/blog" class="text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">
+          <nuxt-link to="/blog" class="hover:opacity-100 text-lg text-white opacity-75 font-bold block md:inline mt-4 md:mt-0 mr-6">
             Blog
           </nuxt-link>
         </div>

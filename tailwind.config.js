@@ -30,7 +30,8 @@ module.exports = {
     }
   },
   variants: {
-    borderWidth: ['responsive', 'hover', 'focus']
+    borderWidth: ['responsive', 'hover', 'focus'],
+    textColor: ['responsive', 'group-hover', 'hover', 'focus']
   },
   plugins: []
 }
