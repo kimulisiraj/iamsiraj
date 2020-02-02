@@ -8,7 +8,7 @@
             Work
           </h1>
           <p class="text-white opacity-75 mt-8 text-xlg">
-            Contributed to Open Source Project, design and craft various successful Web Applications,
+            Contributed to Open Source Project, designed and crafted various successful Web Applications and
             Websites. Check out my latest creation.
           </p>
           <a href="#content" class="block mt-8 md:mt-16">

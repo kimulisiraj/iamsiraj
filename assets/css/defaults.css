@@ -17,6 +17,11 @@ html, body {
   @apply font-serif;
 }
 
+.home {
+  background: #301d55 url("~assets/images/siraj-kimuli-mobile.png") no-repeat 100% 100%;
+  background-size: 60%;
+}
+
 .blog {
   background: #CD4C48 url("~assets/images/typewriter.jpg") no-repeat;
 }
@@ -31,14 +36,23 @@ html, body {
 
 .blog, .about, .work {
   background-position: 100% 100%;
-  background-size: 50%;
+  background-size: 60%;
 }
 
 
 @screen md {
-  .blog, .about, .work {
+  .blog, .work {
     background-size: auto;
     background-position: 100% 50%;
+  }
+
+  .about {
+    background-size: auto;
+    background-position: 100% 100%;
+  }
+
+  .home {
+    background: #301d55 url("~assets/images/siraj-kimuli-desktop-2.png") no-repeat 100% 100%;
   }
   .work {
     background-position: 100% 100%;

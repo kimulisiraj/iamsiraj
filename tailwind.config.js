@@ -16,8 +16,7 @@ module.exports = {
       },
       colors: {
         blue: '#4826D4',
-        purple: '#401D6D',
-        'purple-darker': '#1C0734',
+        purple: '#301d55',
         'purple-light': '#CFA3FF',
         yellow: '#D4BF1F',
         red: '#CD4C48',
@@ -31,7 +30,8 @@ module.exports = {
     }
   },
   variants: {
-    borderWidth: ['responsive', 'hover', 'focus']
+    borderWidth: ['responsive', 'hover', 'focus'],
+    textColor: ['responsive', 'group-hover', 'hover', 'focus']
   },
   plugins: []
 }

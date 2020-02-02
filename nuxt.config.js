@@ -37,7 +37,11 @@ module.exports = {
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-157466258-1'
+    }]
   ],
   /*
   ** Nuxt.js modules
@@ -47,8 +51,14 @@ module.exports = {
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
+    // Doc: https://github.com/nuxt-community/sitemap-module#readme
+    '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    hostname: 'https://kimulisiraj.me',
+    gzip: true
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options

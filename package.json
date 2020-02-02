@@ -16,7 +16,9 @@
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
+    "@nuxtjs/sitemap": "^2.0.1",
     "cross-env": "^5.2.0",
+    "ikonate": "^1.1.1",
     "koa": "^2.6.2",
     "less-loader": "^5.0.0",
     "node-sass": "^4.13.1",
@@ -25,6 +27,7 @@
   "devDependencies": {
     "@nuxtjs/eslint-config": "^1.0.1",
     "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/google-analytics": "^2.2.3",
     "@nuxtjs/tailwindcss": "^1.0.0",
     "@vue/test-utils": "^1.0.0-beta.27",
     "babel-eslint": "^10.0.1",

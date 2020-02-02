@@ -2,7 +2,7 @@
   <section>
     <!--introduction banner-->
     <div class="bg-purple">
-      <div class="container flex items-center banner">
+      <div class="container flex items-center banner home">
         <div class="w-full md:w-2/3 lg:w-1/2 ml-0 lg:ml-24 mt-24 md:mt-32">
           <h1 class="text-5xl sm:text-6xl md:text-8xl font-extrabold text-white leading-none">
             Software Engineer
@@ -33,9 +33,10 @@
             Websites, Open Source Project <br>
             and experimental.
           </p>
-          <p class="mt-16">
-            <nuxt-link to="/work" class="py-2 px-4 border-2 border-blue text-blue">
+          <p class="mt-10 mt-16 w-full lg:w-2/3">
+            <nuxt-link to="/work" class="group hover:shadow hover:bg-blue hover:text-white py-2 px-4 border-2 border-blue text-blue w-full flex">
               Look at my craft
+              <ArrowRight stroke-width="2" class="ml-auto w-6 h-6 stroke-current text-blue group-hover:text-white"/>
             </nuxt-link>
           </p>
         </div>
@@ -49,9 +50,10 @@
             product design, user experience, <br>
             budgeting and planing.
           </p>
-          <p class="mt-10 md:mt-16">
-            <nuxt-link to="/blog" class="py-2 px-4 border-2 border-blue text-blue">
+          <p class="mt-10 md:mt-16 w-full lg:w-2/3">
+            <nuxt-link to="/blog" class="group hover:shadow hover:bg-blue hover:text-white py-2 px-4 border-2 border-blue text-blue w-full flex">
               Go to Blog
+              <ArrowRight stroke-width="2" class="ml-auto w-6 h-6 stroke-current text-blue group-hover:text-white"/>
             </nuxt-link>
           </p>
         </div>
@@ -92,6 +94,7 @@
 <script>
 import BlogCard from '@/components/BlogCard'
 import ArrowDown from '@/components/svg/ArrowDown'
+import ArrowRight from '@/components/svg/ArrowRight'
 import ResourcesArt from '@/components/svg/ResourcesArt'
 import BackButtonArt from '@/components/svg/BackButtonArt'
 import WorkflowArt from '@/components/svg/WorkflowArt'
@@ -109,6 +112,7 @@ export default {
   components: {
     BlogCard,
     ArrowDown,
+    ArrowRight,
     ResourcesArt,
     WorkflowArt,
     BackButtonArt
