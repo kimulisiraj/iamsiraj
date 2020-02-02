@@ -50,3 +50,9 @@ html, body {
   }
 
 }
+
+.box {
+  background: linear-gradient(145deg, #f2f8ff, #cbd1d8);
+  box-shadow:  5px 5px 13px #d2d8df, -5px -5px 13px #f2f8ff;
+  box-shadow:  5px 5px 13px #d2d8df, -5px -5px 13px #f2f8ff;
+}
