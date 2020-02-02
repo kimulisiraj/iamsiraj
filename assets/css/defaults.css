@@ -65,8 +65,9 @@ html, body {
 
 }
 
-.box {
-  background: linear-gradient(145deg, #f2f8ff, #cbd1d8);
-  box-shadow:  5px 5px 13px #d2d8df, -5px -5px 13px #f2f8ff;
-  box-shadow:  5px 5px 13px #d2d8df, -5px -5px 13px #f2f8ff;
+.nue-box {
+  border-radius: 0px;
+  /*background: linear-gradient(145deg, #ffffff, #dee1e3);*/
+  box-shadow:  5px 5px 10px #e8ebed,
+  -5px -5px 10px #ffffff;
 }
