@@ -26,7 +26,7 @@
       <div class="flex flex-wrap -mx-6 overflow-x-hidden py-8">
         <!--ztenda-->
         <div class="w-full md:w-1/3 p-6">
-          <div class="flex shadow-xl bg-white h-80 block p-8">
+          <div class="flex shadow-xl bg-white block p-8">
             <div class="mt-auto">
               <h4 class="font-extrabold text-xl md:text-2xl">
                 Ztenda
@@ -43,7 +43,7 @@
 
         <!--cliqpal-->
         <div class="w-full md:w-1/3 p-6">
-          <div class="flex shadow-xl bg-white h-80 block p-8">
+          <div class="flex shadow-xl bg-white block p-8">
             <div class="mt-auto">
               <h4 class="font-extrabold text-xl md:text-2xl">
                 Cliqpal
@@ -59,8 +59,8 @@
         </div>
 
         <!--agrotracker-->
-        <div class="w-full md:w-1/3 p-6">
-          <div class="flex shadow-xl bg-white h-80 block p-8">
+        <div class="w-full md:w-1/3 p-6 ">
+          <div class="flex shadow-xl bg-white block p-8">
             <div class="mt-auto">
               <h4 class="font-extrabold text-xl md:text-2xl">
                 AgroTracker
@@ -77,7 +77,7 @@
 
         <!--borrowercentral-->
         <div class="w-full md:w-1/3 p-6">
-          <div class="flex shadow-xl bg-white h-80 block p-8">
+          <div class="flex shadow-xl bg-white block p-8">
             <div class="mt-auto">
               <h4 class="font-extrabold text-xl md:text-2xl">
                 BorrowerCentral
@@ -94,7 +94,7 @@
 
         <!--sanyuapp-->
         <div class="w-full md:w-1/3 p-6">
-          <div class="flex shadow-xl bg-white h-80 block p-8">
+          <div class="flex shadow-xl bg-white block p-8">
             <div class="mt-auto">
               <h4 class="font-extrabold text-xl md:text-2xl">
                 Sanyu app
@@ -117,7 +117,7 @@
       <div class="flex flex-wrap -mx-6 overflow-x-hidden py-8">
         <!--flt-->
         <div class="w-full md:w-1/3 p-6">
-          <div class="flex shadow-xl bg-white h-80 block p-8">
+          <div class="flex shadow-xl bg-white block p-8">
             <div class="mt-auto">
               <h4 class="font-extrabold text-xl md:text-2xl">
                 FutureLink Technologies
@@ -134,7 +134,7 @@
 
         <!--ellington safaris-->
         <div class="w-full md:w-1/3 p-6">
-          <div class="flex shadow-xl bg-white h-80 block p-8">
+          <div class="flex shadow-xl bg-white block p-8">
             <div class="mt-auto">
               <h4 class="font-extrabold text-xl md:text-2xl">
                 Ellington Safaris Ltd

@@ -64,3 +64,10 @@ html, body {
   }
 
 }
+
+.nue-box {
+  border-radius: 0px;
+  /*background: linear-gradient(145deg, #ffffff, #dee1e3);*/
+  box-shadow:  5px 5px 10px #e8ebed,
+  -5px -5px 10px #ffffff;
+}
