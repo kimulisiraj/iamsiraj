@@ -36,7 +36,7 @@
           <p class="mt-10 mt-16 w-full lg:w-2/3">
             <nuxt-link to="/work" class="group hover:shadow hover:bg-blue hover:text-white py-2 px-4 border-2 border-blue text-blue w-full flex">
               Look at my craft
-              <ArrowRight stroke-width="2" class="ml-auto w-6 h-6 stroke-current text-blue group-hover:text-white"/>
+              <ArrowRight stroke-width="2" class="ml-auto w-6 h-6 stroke-current text-blue group-hover:text-white" />
             </nuxt-link>
           </p>
         </div>
@@ -53,7 +53,7 @@
           <p class="mt-10 md:mt-16 w-full lg:w-2/3">
             <nuxt-link to="/blog" class="group hover:shadow hover:bg-blue hover:text-white py-2 px-4 border-2 border-blue text-blue w-full flex">
               Go to Blog
-              <ArrowRight stroke-width="2" class="ml-auto w-6 h-6 stroke-current text-blue group-hover:text-white"/>
+              <ArrowRight stroke-width="2" class="ml-auto w-6 h-6 stroke-current text-blue group-hover:text-white" />
             </nuxt-link>
           </p>
         </div>
@@ -73,7 +73,7 @@
           </template>
         </BlogCard>
 
-        <BlogCard color="bg-yellow" to="blog/design-free-online-resources">
+        <BlogCard color="bg-yellow" to="blog/free-online-ui-ux-design-resources">
           Free Online Resources for UX/UI Design
           <template v-slot:icon>
             <ResourcesArt class="h-16" />
@@ -104,8 +104,8 @@ export default {
     return {
       title: `Siraj Kimuli - Software Engineer`,
       meta: [
-        { hid: 'description', name: 'description', content: `I'm Siraj Kimuli a Software Engineer from Uganda Kampala who Enjoys Writing` },
-        { hid: 'keywords', name: 'keywords', content: `Web application, Website Design, open source projects, product design, user experience, programmer, writing code` }
+        { hid: 'description', name: 'description', content: `Siraj Kimuli is developer and partner at LUCKYGrafics base in Kampala Uganda ` },
+        { hid: 'keywords', name: 'keywords', content: `Software Engineer, Kimuli Siraje, Web application, Website Design, open source projects, product design, user experience, programmer, writing code` }
       ]
     }
   },

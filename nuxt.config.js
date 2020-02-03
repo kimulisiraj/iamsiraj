@@ -52,6 +52,7 @@ module.exports = {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
+    'nuxt-rfg-icon',
     // Doc: https://github.com/nuxt-community/sitemap-module#readme
     '@nuxtjs/sitemap'
   ],

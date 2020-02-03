@@ -28,7 +28,7 @@
           </template>
         </BlogCard>
 
-        <BlogCard color="bg-yellow" to="/blog/design-free-online-resources">
+        <BlogCard color="bg-yellow" to="/blog/free-online-ui-ux-design-resources">
           Free Online Resources for UX/UI Design
           <template v-slot:icon>
             <ResourcesArt class="h-16" />

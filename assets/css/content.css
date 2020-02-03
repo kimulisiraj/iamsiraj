@@ -25,6 +25,10 @@
   @apply text-gray-800;
 }
 
+.content a {
+  @apply underline text-blue;
+}
+
 @screen md {
   .content h2 {
     @apply text-4xl;
