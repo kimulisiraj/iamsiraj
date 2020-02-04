@@ -8,8 +8,8 @@
             About
           </h1>
           <p class="text-white opacity-75 mt-8 text-xlg">
-            I passionate about photography and cinematography though it's just a hobby! anyway scroll and
-            know more about me (the author) and why I this built website. It will help us connect easier.
+            I passionate about photography and cinematography though it's just a hobby!, anyway scroll and know more
+            about me (the author) and why I this built website. It will help us connect easier.
           </p>
           <a href="#content" class="block mt-8 md:mt-16">
             <ArrowDown />
@@ -20,22 +20,48 @@
 
     <!--Content-->
     <div id="content" class="container mt-24 md:mt-32">
-      <div class="w-full sm:w-4/5 md:w-2/3 lg:w-1/2 mt-24 ml-0 lg:ml-24">
+      <div class="w-full mt-24 ml-0 lg:ml-24">
         <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">
           The Author
         </h2>
-        <p class="text-gray-700">
-          I’m a Product Designer and UI/UX Designer always immersed in stylesheets tweaking font sizes and
-          contemplating layouts, most times creating api-end points and business models (this makes me a back-end developer).
-        </p>
+        <div class="flex md:flex-no-wrap flex-wrap-reverse">
+          <div class="w-full mt-4 md:mt-0 sm:w-4/5 md:w-2/3 lg:w-1/2">
+            <p class="text-gray-700">
+              A multidisciplinary software engineer with over 5 + years experience.
+              My skill set extends to digital design,
+              UX/UI Design, API Development, Systems Integration, working with and leading a team over multiple projects
+              and
+              campaigns. I get geeky about creative stuff, will jump at the chance to scuba dive and in another life I
+              would
+              travel the practising photography.
+            </p>
 
-        <p class="mt-4 text-gray-700">
-          I enjoy working in teams as dream is always "Having a great team running a successful product"
-        </p>
+            <p class="mt-4 text-gray-700">
+              Goal: "Leading a great team running a successful product"
+            </p>
 
-        <p class="mt-4 text-gray-700">
-          Follow me on <a href="https://twitter.com/kimulisiraj" target="_blank">Twitter</a> to know what am working on.
-        </p>
+            <p class="mt-4 text-gray-700">
+              <span class="font-bold">Twitter: </span><a
+                href="https://twitter.com/kimulisiraj"
+                target="_blank"
+                class="text-blue"
+              > @kimulisiraj</a>
+            </p>
+            <p class="mt-2 text-gray-700">
+              <span class="font-bold">Email: </span> <a href="mailto:ello@kimulisiraj.me" class="text-blue">hello@kimulisiraj.me</a>
+            </p>
+          </div>
+          <figure class="md:ml-4 h-auto md:h-56 w-full md:w-56 object-cover">
+            <img
+              src="~/assets/images/siraje.jpg"
+              class="w-full h-auto object-cover"
+              alt="Siraj Kimuli"
+            >
+            <caption class="block w-full text-left bg-white py-3 px-4 text-sm">
+              Co-founder <a href="https://luckygrafics.com" class="text-blue" target="_blank">LUCKYGrafics</a>
+            </caption>
+          </figure>
+        </div>
       </div>
       <div class="w-full md:w-2/3 lg:w-1/2 mt-24 ml-0 lg:ml-24">
         <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">
@@ -73,19 +99,22 @@
           Writing: iA Writer
         </h4>
         <p class="text-gray-700">
-          A simple markdown editor. All posts start here then are copied and pasted into the CMS. Syncs with iCloud so I can write anywhere.
+          A simple markdown editor. All posts start here then are copied and pasted into the CMS. Syncs with iCloud so I
+          can write anywhere.
         </p>
         <h4 class="font-bold mt-4">
           Hosting: Netlify
         </h4>
         <p class="text-gray-700">
-          Its a cloud based hosting service; All I can say about <a href="https://www.netlify.com" target="_blank">netlify</a> everything just works the way they should,  linking your repository is all your need to get rolling.
+          Its a cloud based hosting service; All I can say about <a href="https://www.netlify.com" target="_blank">netlify</a>
+          everything just works the way they should, linking your repository is all your need to get rolling.
         </p>
         <h4 class="font-bold mt-4">
           Framework: Nuxtjs | Vue
         </h4>
         <p class="text-gray-700">
-          I choose Nuxtjs for Vue because it doesnt introduce other framework syntax and rules to obey to, Nuxtjs just help you organise your vue code I.e a bootstrapper for vue projects.
+          I choose Nuxtjs for Vue because it doesnt introduce other framework syntax and rules to obey to, Nuxtjs just
+          help you organise your vue code I.e a bootstrapper for vue projects.
         </p>
       </div>
     </div>
@@ -94,12 +123,22 @@
 
 <script>
 import ArrowDown from '@/components/svg/ArrowDown'
+
 export default {
   head () {
     return {
       title: 'About - Siraj Kimuli',
       meta: [
-        { hid: 'description', name: 'description', content: 'About the Author (Kimuli Siraje) and technology used to build this website' }
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'About the Author (Kimuli Siraje) and technology used to build this website'
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'UI/UX Design, Nuxtjs, Vuejs, Webstorm, Netlify, web development, Ai Writer, photography, API Development, Systems Integration, digital design'
+        }
       ]
     }
   },
