@@ -3,7 +3,7 @@
     <nuxt-link
       :to="to"
       :class="color"
-      class="flex flex-col justify-between shadow-xl bg-white h-80 block p-8"
+      class="flex flex-col justify-between bg-white h-80 block p-8 hover:shadow-lg duration-75 transition-transform hover:scale-50"
     >
       <h3 class="text-2xl font-semibold leading-tight text-white">
         <slot />

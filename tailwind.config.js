@@ -30,8 +30,16 @@ module.exports = {
     }
   },
   variants: {
+    opacity: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
     borderWidth: ['responsive', 'hover', 'focus'],
-    textColor: ['responsive', 'group-hover', 'hover', 'focus']
+    textColor: ['responsive', 'group-hover', 'hover', 'focus'],
+    transitionDuration: ['responsive', 'hover', 'focus', 'group-hover'],
+    transitionProperty: ['responsive', 'hover', 'focus', 'group-hover'],
+    transitionTimingFunction: ['responsive', 'hover', 'focus', 'group-hover'],
+    scale: ['responsive', 'hover', 'focus', 'group-hover'],
+    rotate: ['responsive', 'hover', 'focus', 'group-hover'],
+    translate: ['responsive', 'hover', 'focus', 'group-hover'],
+    margin: ['responsive', 'hover', 'focus', 'group-hover']
   },
   plugins: []
 }

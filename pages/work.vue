@@ -124,7 +124,7 @@
                 Finatech
               </p>
               <p class="mt-4">
-                <a href="https://fltug.com.com" class="text-blue hover:underline" target="_blank">fltug.com</a>
+                <a href="https://fltug.com" class="text-blue hover:underline" target="_blank">fltug.com</a>
               </p>
             </div>
           </div>

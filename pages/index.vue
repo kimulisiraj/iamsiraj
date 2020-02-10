@@ -34,9 +34,15 @@
             and experimental.
           </p>
           <p class="mt-10 mt-16 w-full lg:w-2/3">
-            <nuxt-link to="/work" class="group hover:shadow hover:bg-blue hover:text-white py-2 px-4 border-2 border-blue text-blue w-full flex">
+            <nuxt-link
+              to="/work"
+              class="cursor-pointer group transition-colors duration-300 hover:bg-yellow hover:border-yellow hover:text-purple py-2 px-4 border-2 border-blue text-blue w-full flex"
+            >
               Look at my craft
-              <ArrowRight stroke-width="2" class="ml-auto w-6 h-6 stroke-current text-blue group-hover:text-white" />
+              <ArrowRight
+                stroke-width="2"
+                class="transition-all ease-in-out duration-500 ml-auto mr-4 group-hover:mr-0 w-6 h-6 stroke-current text-blue group-hover:text-purple"
+              />
             </nuxt-link>
           </p>
         </div>
@@ -51,9 +57,15 @@
             budgeting and planing.
           </p>
           <p class="mt-10 md:mt-16 w-full lg:w-2/3">
-            <nuxt-link to="/blog" class="group hover:shadow hover:bg-blue hover:text-white py-2 px-4 border-2 border-blue text-blue w-full flex">
+            <nuxt-link
+              to="/blog"
+              class="cursor-pointer group transition-colors duration-300 hover:bg-yellow hover:border-yellow hover:text-purple py-2 px-4 border-2 border-blue text-blue w-full flex"
+            >
               Go to Blog
-              <ArrowRight stroke-width="2" class="ml-auto w-6 h-6 stroke-current text-blue group-hover:text-white" />
+              <ArrowRight
+                stroke-width="2"
+                class="transition-all ease-in-out duration-500 ml-auto mr-4 group-hover:mr-0 w-6 h-6 stroke-current text-blue group-hover:text-purple"
+              />
             </nuxt-link>
           </p>
         </div>
@@ -61,7 +73,7 @@
     </div>
 
     <!--Recent Blog-->
-    <div class="container mt-24 md:mt-32 overflow-x-hidden">
+    <div class="container mt-24 overflow-x-hidden">
       <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">
         Recent Blog
       </h2>
