@@ -6,7 +6,7 @@
         <img
           src="~assets/images/siraj-kimuli-mobile.png"
           alt="Siraj Kimuli"
-          class="absolute bottom-0 right-0 md:hidden w-1/2 siraj-mobile"
+          class="absolute bottom-0 right-0 md:hidden w-2/3 siraj-mobile"
         >
         <img
           src="~assets/images/siraj-kimuli-desktop-2.png"
