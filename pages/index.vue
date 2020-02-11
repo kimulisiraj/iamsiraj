@@ -1,9 +1,19 @@
 <template>
   <section>
     <!--introduction banner-->
-    <div class="bg-purple">
-      <div class="container flex items-center banner home">
-        <div class="w-full md:w-2/3 lg:w-1/2 ml-0 lg:ml-24 mt-24 md:mt-32">
+    <div class="bg-purple z-0">
+      <div class="container flex items-center banner relative">
+        <img
+          src="~assets/images/siraj-kimuli-mobile.png"
+          alt="Siraj Kimuli"
+          class="absolute bottom-0 right-0 md:hidden w-1/2 siraj-mobile"
+        >
+        <img
+          src="~assets/images/siraj-kimuli-desktop-2.png"
+          alt="Siraj Kimuli"
+          class="absolute bottom-0 right-0 hidden md:block w-2/3 lg:w-auto"
+        >
+        <div class="w-full md:w-2/3 lg:w-1/2 ml-0 lg:ml-24 mt-24 md:mt-32 z-50 intro">
           <h1 class="text-5xl sm:text-6xl md:text-8xl font-extrabold text-white leading-none">
             Software Engineer
           </h1>
@@ -38,7 +48,7 @@
               to="/work"
               class="cursor-pointer group transition-colors duration-300 hover:border-yellow hover:text-purple py-2 px-4 border-2 border-blue text-blue w-full flex"
             >
-              Look at my craft
+              Look at my cra
               <ArrowRight
                 stroke-width="2"
                 class="transition-all ease-in-out duration-500 ml-auto mr-4 group-hover:mr-0 w-6 h-6 stroke-current text-blue group-hover:text-yellow"
@@ -116,8 +126,8 @@ export default {
     return {
       title: `Siraj Kimuli - Software Engineer`,
       meta: [
-        { hid: 'description', name: 'description', content: `Siraj Kimuli is developer and partner at LUCKYGrafics base in Kampala Uganda ` },
-        { hid: 'og:description', name: 'og:description', content: `Siraj Kimuli is developer and partner at LUCKYGrafics base in Kampala Uganda ` },
+        { hid: 'description', name: 'description', content: `Siraj Kimuli is Front-end Engineer and partner at LUCKYGrafics base in Kampala Uganda` },
+        { hid: 'og:description', name: 'og:description', content: `Siraj Kimuli is Front-end Engineer and partner at LUCKYGrafics base in Kampala Uganda` },
         { hid: 'keywords', name: 'keywords', content: `Software Engineer, Kimuli Siraje, Web application, Website Design, open source projects, product design, user experience, programmer, writing code` }
       ]
     }
@@ -132,3 +142,17 @@ export default {
   }
 }
 </script>
+<style>
+  .siraj-mobile{
+    animation: 10s bringIn;
+    transform: translateX(0px);
+  }
+  @keyframes bringIn {
+    0%{
+      transform: translateX(30px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+</style>

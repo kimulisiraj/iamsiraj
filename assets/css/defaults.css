@@ -17,11 +17,6 @@ html, body {
   @apply font-serif;
 }
 
-.home {
-  background: #301d55 url("~assets/images/siraj-kimuli-mobile.png") no-repeat 100% 100%;
-  background-size: 60%;
-}
-
 .blog {
   background: #CD4C48 url("~assets/images/typewriter.jpg") no-repeat;
 }
@@ -51,9 +46,6 @@ html, body {
     background-position: 100% 100%;
   }
 
-  .home {
-    background: #301d55 url("~assets/images/siraj-kimuli-desktop-2.png") no-repeat 100% 100%;
-  }
   .work {
     background-position: 100% 100%;
   }
@@ -63,11 +55,4 @@ html, body {
     max-height: 800px;
   }
 
-}
-
-.nue-box {
-  border-radius: 0px;
-  /*background: linear-gradient(145deg, #ffffff, #dee1e3);*/
-  box-shadow:  5px 5px 10px #e8ebed,
-  -5px -5px 10px #ffffff;
 }

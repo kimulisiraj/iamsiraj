@@ -1,6 +1,7 @@
 <template>
-  <div class="bg-yellow">
-    <div :class="menuOpen?'open':''" class="container flex justify-center items-center menu">
+  <div class="relative z-40 -mb-20 ">
+    <div class="w-full bg-yellow">
+      <div :class="menuOpen?'open':''" class="container flex justify-center items-center menu">
       <div class="py-12" @click="menuOpen = !menuOpen">
         <nuxt-link to="/" class="duration-150 ease-in hover:opacity-100 text-xl text-white opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
           Home
@@ -16,7 +17,8 @@
         </nuxt-link>
       </div>
     </div>
-    <nav class="flex justify-between -mb-20 h-20 items-center container py-4 text-white">
+    </div>
+    <nav class="flex justify-between h-20 items-center container py-4 text-white">
       <a href="/" class="font-bold typewriter block hover:text-yellow group py-2">
         I'm Siraj Kimuli
         <span class="group-hover:opacity-100 opacity-0 transition ease-in-out duration-300 hidden md:inline">
