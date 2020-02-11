@@ -13,7 +13,7 @@
             href="https://twitter.com/kimulisiraj"
             target="_blank"
             title="@kimulisiraj"
-            class="block mr-6 md:inline-block mt-4 text-lg font-bold md:text-xl text-yellow"
+            class="opacity-75 hover:opacity-100 duration-300 block mr-6 md:inline-block mt-4 text-lg font-bold md:text-xl text-yellow"
           >
             Twitter
           </a>
@@ -21,7 +21,7 @@
             href="https://github.com/kimulisiraj/"
             target="_blank"
             title="@kimulisiraj"
-            class="block mr-6 md:inline-block mt-4 text-lg font-bold md:text-xl text-yellow"
+            class="opacity-75 hover:opacity-100 duration-300 block mr-6 md:inline-block mt-4 text-lg font-bold md:text-xl text-yellow"
           >
             Github
           </a>
@@ -29,7 +29,7 @@
             href="https://dribbble.com/kimulisiraj"
             target="_blank"
             title="dribbble"
-            class="block mr-6 md:inline-block mt-4 text-lg font-bold md:text-xl text-yellow"
+            class="opacity-75 hover:opacity-100 duration-300 block mr-6 md:inline-block mt-4 text-lg font-bold md:text-xl text-yellow"
           >
             Dribbble
           </a>
@@ -37,7 +37,7 @@
             href="https://linkedin.com/in/kimulisiraj"
             target="_blank"
             title="linkedin"
-            class="block mr-6 md:inline-block mt-4 text-lg font-bold md:text-xl text-yellow"
+            class="opacity-75 hover:opacity-100 duration-300 block mr-6 md:inline-block mt-4 text-lg font-bold md:text-xl text-yellow"
           >
             LinkedIn
           </a>

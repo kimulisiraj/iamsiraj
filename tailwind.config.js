@@ -30,6 +30,7 @@ module.exports = {
     }
   },
   variants: {
+    fontSize: ['responsive', 'hover', 'focus'],
     opacity: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
     borderWidth: ['responsive', 'hover', 'focus'],
     textColor: ['responsive', 'group-hover', 'hover', 'focus'],

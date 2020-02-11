@@ -1,22 +1,59 @@
 <template>
-  <nav class="flex justify-between -mb-20 h-20 items-center container py-4 text-white">
-    <a href="/" class="font-bold typewriter block hover:text-yellow group py-2">
-      I'm Siraj Kimuli
-      <span class="group-hover:opacity-100 opacity-0 transition-all duration-300">
-        <ArrowRight stroke-width="2" class="stroke-current text-yellow w-6 mx-2 inline" />
-        Go home
-      </span>
-    </a>
-    <a href="#menu" class="font-bold border-2 border-white text-sm py-2 px-4">
-      Menu
-    </a>
-  </nav>
+  <div class="bg-yellow">
+    <div :class="menuOpen?'open':''" class="container flex justify-center items-center menu">
+      <div class="py-12" @click="menuOpen = !menuOpen">
+        <nuxt-link to="/" class="duration-150 ease-in hover:opacity-100 text-xl text-white opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
+          Home
+        </nuxt-link>
+        <nuxt-link to="/about" class="hover:opacity-100 text-xl text-white opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
+          About
+        </nuxt-link>
+        <nuxt-link to="work" class="hover:opacity-100 text-xl text-white opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
+          Work
+        </nuxt-link>
+        <nuxt-link to="/blog" class="hover:opacity-100 text-xl text-white opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
+          Blog
+        </nuxt-link>
+      </div>
+    </div>
+    <nav class="flex justify-between -mb-20 h-20 items-center container py-4 text-white">
+      <a href="/" class="font-bold typewriter block hover:text-yellow group py-2">
+        I'm Siraj Kimuli
+        <span class="group-hover:opacity-100 opacity-0 transition ease-in-out duration-300 hidden md:inline">
+          <ArrowRight stroke-width="2" class="stroke-current text-yellow w-6 mx-2 inline" />
+          Go home
+        </span>
+      </a>
+      <button
+        @click="menuOpen = !menuOpen"
+        class="hover:border-yellow transition-all duration-300 hover:text-yellow font-bold border-2 border-white text-sm py-2 px-4 focus:outline-none"
+      >
+        <span v-show="!menuOpen">Menu</span>
+        <span v-show="menuOpen">X</span>
+      </button>
+    </nav>
+  </div>
 </template>
 
 <script>
 import ArrowRight from '@/components/svg/ArrowRight'
 export default {
   name: 'Navigation',
-  components: { ArrowRight }
+  components: { ArrowRight },
+  data () {
+    return {
+      menuOpen: false
+    }
+  }
 }
 </script>
+<style scoped>
+  .menu{
+    @apply h-0 opacity-0 overflow-hidden;
+    transition: all 0.5s ease-in-out;
+  }
+  .menu.open{
+    @apply opacity-100;
+    height: 50vh;
+  }
+</style>
