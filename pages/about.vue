@@ -132,7 +132,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'About the Author (Kimuli Siraje) and technology used to build this website'
+          content: 'About the Author (Siraj Kimuli) and the technology used to build this blog'
         },
         {
           hid: 'keywords',
