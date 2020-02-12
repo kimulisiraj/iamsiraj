@@ -48,7 +48,7 @@
               to="/work"
               class="cursor-pointer group transition-colors duration-300 hover:border-yellow hover:text-purple py-2 px-4 border-2 border-blue text-blue w-full flex"
             >
-              Look at my cra
+              Look at my craft
               <ArrowRight
                 stroke-width="2"
                 class="transition-all ease-in-out duration-500 ml-auto mr-4 group-hover:mr-0 w-6 h-6 stroke-current text-blue group-hover:text-yellow"
