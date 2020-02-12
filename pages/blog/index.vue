@@ -5,7 +5,7 @@
       <div class="container flex items-center banner blog">
         <div class="w-full lg:w-2/5 ml-0 lg:ml-24 mt-24 md:mt-32">
           <h1 class="text-5xl sm:text-6xl md:text-8xl font-extrabold text-white leading-none">
-            Blog
+            <span>📝</span> Blog
           </h1>
           <p class="text-white opacity-75 mt-8 text-xlg">
             Sharing is caring; Here I share what I have learnt in ages as a software engineer and a partner at LUCKYGrafics, something in the lines of product design, User experience design, application development, budgeting and planning.

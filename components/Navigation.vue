@@ -4,16 +4,16 @@
       <div :class="menuOpen?'open':''" class="container flex justify-center items-center menu">
       <div class="py-12" @click="menuOpen = !menuOpen">
         <nuxt-link to="/" class="duration-150 ease-in hover:opacity-100 text-xl text-white opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
-          Home
+          <span >🏠</span> Home
         </nuxt-link>
         <nuxt-link to="/about" class="hover:opacity-100 text-xl text-white opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
-          About
+          <span >🥺</span> About
         </nuxt-link>
         <nuxt-link to="work" class="hover:opacity-100 text-xl text-white opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
-          Work
+          <span >💼</span> Work
         </nuxt-link>
         <nuxt-link to="/blog" class="hover:opacity-100 text-xl text-white opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
-          Blog
+          <span >📝</span> Blog
         </nuxt-link>
       </div>
     </div>

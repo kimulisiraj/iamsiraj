@@ -5,10 +5,10 @@
       <div class="container flex items-center h-screen work banner">
         <div class="w-full lg:w-2/5 ml-0 lg:ml-24 mt-24 md:mt-32">
           <h1 class="text-5xl sm:text-6xl md:text-8xl font-extrabold text-white leading-none">
-            Work
+            <span>💼</span> Work
           </h1>
           <p class="text-white opacity-75 mt-8 text-xlg">
-            I have worked with many teams in different companies and organisations. I will share the journey in the blog section. Here I am sharing the projects am pround off, some are Open Source Project are Applications and Websites. 👇
+            I have worked with many teams in different companies and organisations. I will share the journey in the blog section. Here I am sharing the projects am proud of, most Applications others are Open Source Projects and Websites.
           </p>
           <a href="#content" class="block mt-8 md:mt-16">
             <ArrowDown />
