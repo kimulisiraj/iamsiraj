@@ -23,28 +23,28 @@
     <div id="content" class="container mt-8 overflow-x-hidden">
       <div class="w-full lg:w-3/5 mx-auto content">
         <p class="font-semibold">
-          The “back button” is one of the components with least user experience!, continue reading and explain why and how this back is a mess.
+          The “back button” is one of the components with least UX (user experience)! <br>Continue reading and I will explain why and how this back is a total mess.
         </p>
         <p>
-          As most of the “back buttons” it navigates you back to the recent item in the history stack, oh wait... you may not know which item or page is on top of the stack hence visiting unintended page.
+          As most of the “back buttons” it navigates you back to the recent item in the history stack, oh wait... you may not know which item or page is on top of the stack hence visiting an unintended page.
         </p>
         <h3>The Android messed up "button back"..!</h3>
         <p>
-          If you're an android user or ever owned any gadget running android os you're familiar with "back button" always (99% of all the time) placed at the button right of the phone/gadget.
+          If you're an Android user or ever owned any gadget running Android os you're familiar with "back button" always (99% of all the time) placed at the button right of the phone/gadget.
         </p>
         <ul>
           <li>
             You know how stressing it's to tap the "back button" unknown times to close a given application. The os
-            doesn't communicate the number of many times are required to successfully close the application.
+            doesn't communicate the number of many times required to close the application successfully
             Having a functionality to close the application was a wrong choice by google, take an example if your
             browser
             "back button" could close the browser that would be a total mess.
           </li>
 
           <li>
-            Then it gets even worse that after closing the application and landing on the homepage it keeps toggling
+            Then it gets even worse, that after closing the application and landing on the homepage it keeps toggling
             between you screen pages.
-            The button performances all the above stated actions behaviours 90% all of the time without changing form or
+            The button performances all the above-stated actions behaviours 90% all of the time without changing form or
             colour to communicate what the next action is.
           </li>
         </ul>
@@ -57,13 +57,10 @@
           why do I claim it's blind?
         </h4>
         <p>
-          Take this example; You have 3 tabs open on your browser, then you leave your work station for about one
-          hour, coming back to open one tab by then would have forget what the previous page was and blindingly you can
-          use
-          the back button to go back, if the history stack wasn't change.
+          Take this example; You have three tabs open on your browser, then you leave your work station for about one hour, coming back to open one tab by then you would have forgotten what the previous page was, and blindingly you can use the back button to go back. Still, you won't know the page to land on till it opens
         </p>
         <h3>How to Solve the "Back Button" Poor User Experience.</h3>
-        <p>This is a simple as it sounds; not relaying on the browser's "back button" and:-</p>
+        <p>This is a simple as it sounds; not relying on the browser's "back button" and:-</p>
         <ul>
           <li>Implementing Breadcrumbs in our applications these shows the whole journey and hierarchy of the pages</li>
           <li>Implementing a "back button" with a label specifying a page you land on.</li>

@@ -10,8 +10,8 @@
             If I have seen further than others, it is by standing upon the shoulders of giants. - Isaac Newton
           </p>
           <p class="mt-4">
-            I have been designing web applications and researching about user experiences so I'm am pleased to share the
-            Giants (resources) I stood upon for inspiration and guidance to quickly craft out a project.
+            I have been designing applications and researching about user experiences for a while, so I'm am pleased to
+            share the Giants (resources) I stood upon for inspiration and guidance to quickly craft out a project.
           </p>
         </div>
       </div>
@@ -32,17 +32,17 @@
         <ul>
           <li>
             <a href="https://www.manypixels.co/gallery" target="_blank">Manypiexels</a> is an online design studio, but
-            they I have an amazing gallery of illustration which they offer to for free to show off what they are
-            compatible of producing before your place a design order.
+            they have a fantastic gallery of illustration which they offer for free to showcase what they are capable of
+            producing before you place a design order with them.
           </li>
           <li>
-            <a href="https://undraw.co/illustrations" target="_blank">undraw</a> It’s host a variety of well crafted
-            illustrations for different use cases. I know when you use one of illustration designers over the internet
-            will know when it come from but you can do sample adjustments and you own it.
+            <a href="https://undraw.co/illustrations" target="_blank">undraw</a> It hosts a variety of well-crafted
+            illustrations for different use cases. I know when you use one of these illustration designers over the
+            internet will know it came from undraw, but you can make simple adjustments to make them look unique.
           </li>
           <li>
-            <a href="http://www.365cons.com" target="_blank">365cons</a> These are a bit fussy, though I like the
-            attention to details given to each illustration.
+            <a href="http://www.365cons.com" target="_blank">365cons</a>
+            These are a bit fussy, though I like the attention to details given on each illustration.
           </li>
           <li>
             <a href="https://unsplash.com" target="_blank">Unsplashed</a> You might have had about this one. Is the site
@@ -53,8 +53,8 @@
         <!--Inspiration-->
         <h3>Inspiration</h3>
         <p>
-          I go to sites of well known brands as these company invest in allot to have their brands standout and present
-          a better experience to users.
+          Sites of well-known brands invest in allot to have their brands stand out, and they present a better
+          experience to users.
         </p>
         <ul>
           <li><a href="https://land-book.com" target="_blank">land-book.com</a></li>
@@ -66,8 +66,8 @@
         <!-- icons-->
         <h3>Icons</h3>
         <p>
-          There are many icon frameworks and every one his favourite, though I find those those easy to customise and a
-          bit unique.
+          There are many icon frameworks out there, and everyone has his favourite, though I find these following easy
+          to customise and a bit unique
         </p>
         <ul>
           <li><a href="https://feathericons.com" target="_blank">feathericons</a></li>
@@ -112,9 +112,10 @@
 
         <h3>IDE & Settings</h3>
         <p>
-          I started my development career with sublime text as my main code editor, I loved it so much because it was
-          fast and it could run seemly on my low powered MacBook Air. As I become more obsessed with code refactoring
-          PhpStorm and WebStorm become very handy and dropped sublime, I only use it when editing a single file.
+          I started my development career with sublime text as the main code editor, and I loved it so much because it
+          was fast and it could run seemly on my low powered MacBook Air.
+          As I become more obsessed with code refactoring
+          PhpStorm and WebStorm become very handy, and I dropped sublime, I only use it when editing a single file.
         </p>
         <p class="font-bold">
           Here is my setup and IDE of choice:-
@@ -138,7 +139,11 @@ export default {
       title: `Free Online Resources for UX/UI Design. - Siraj Kimuli`,
       meta: [
         { hid: 'description', name: 'description', content: `Free online Resources for UI/UX Designers` },
-        { hid: 'keywords', name: 'keywords', content: `Free Design Resources, Background patterns, IDE Settings, Broswer Plugins, Icon Frameworks, product design, Keyframes, CSS Animation, SVG, cssgradient` }
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: `Free Design Resources, Background patterns, IDE Settings, Broswer Plugins, Icon Frameworks, product design, Keyframes, CSS Animation, SVG, cssgradient`
+        }
       ]
     }
   },

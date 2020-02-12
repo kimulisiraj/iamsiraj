@@ -8,8 +8,7 @@
             Work
           </h1>
           <p class="text-white opacity-75 mt-8 text-xlg">
-            Contributed to Open Source Project, designed and crafted various successful Web Applications and
-            Websites. Check out my latest creation.
+            I have worked with many teams in different companies and organisations. I will share the journey in the blog section. Here I am sharing the projects am pround off, some are Open Source Project are Applications and Websites. 👇
           </p>
           <a href="#content" class="block mt-8 md:mt-16">
             <ArrowDown />
@@ -121,7 +120,7 @@
                 FutureLink Technologies
               </h4>
               <p class="text-gray-600">
-                Finatech
+                Fintech
               </p>
               <p class="mt-4">
                 <a href="https://fltug.com" class="text-blue hover:underline" target="_blank">fltug.com</a>

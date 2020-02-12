@@ -8,8 +8,7 @@
             Blog
           </h1>
           <p class="text-white opacity-75 mt-8 text-xlg">
-            I write about accessibility, product design, user experience, web application development, budgeting and
-            planing.
+            Sharing is caring; Here I share what I have learnt in ages as a software engineer and a partner at LUCKYGrafics, something in the lines of product design, User experience design, application development, budgeting and planning.
           </p>
           <a href="#content" class="block cursor-pointer mt-8 md:mt-16">
             <ArrowDown />
