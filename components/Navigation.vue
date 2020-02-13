@@ -2,21 +2,21 @@
   <div class="relative z-40 -mb-20 ">
     <div class="w-full bg-yellow">
       <div :class="menuOpen?'open':''" class="container flex justify-center items-center menu">
-      <div class="py-12" @click="menuOpen = !menuOpen">
-        <nuxt-link to="/" class="duration-150 ease-in hover:opacity-100 text-xl text-white opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
-          <span >🏠</span> Home
-        </nuxt-link>
-        <nuxt-link to="/about" class="hover:opacity-100 text-xl text-white opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
-          <span >🥺</span> About
-        </nuxt-link>
-        <nuxt-link to="work" class="hover:opacity-100 text-xl text-white opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
-          <span >💼</span> Work
-        </nuxt-link>
-        <nuxt-link to="/blog" class="hover:opacity-100 text-xl text-white opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
-          <span >📝</span> Blog
-        </nuxt-link>
+        <div @click="menuOpen = !menuOpen" class="py-12">
+          <nuxt-link to="/" class="duration-150 ease-in hover:opacity-100 text-xl text-white opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
+            <span>🏠</span> Home
+          </nuxt-link>
+          <nuxt-link to="/about" class="hover:opacity-100 text-xl text-white md:opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
+            <span>🤔</span> About
+          </nuxt-link>
+          <nuxt-link to="work" class="hover:opacity-100 text-xl text-white md:opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
+            <span>💼</span> Work
+          </nuxt-link>
+          <nuxt-link to="/blog" class="hover:opacity-100 text-xl text-white md:opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
+            <span>📝</span> Blog
+          </nuxt-link>
+        </div>
       </div>
-    </div>
     </div>
     <nav class="flex justify-between h-20 items-center container py-4 text-white">
       <a href="/" class="font-bold typewriter block hover:text-yellow group py-2">

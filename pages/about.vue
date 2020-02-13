@@ -5,7 +5,7 @@
       <div class="container flex items-center banner about">
         <div class="w-full lg:w-2/5 ml-0 lg:ml-24 mt-24 md:mt-32">
           <h1 class="text-5xl sm:text-6xl md:text-8xl font-extrabold text-white leading-none">
-            <span>🥺</span>About
+            <span>🤔</span>About
           </h1>
           <p class="text-white opacity-75 mt-8 text-xlg">
             I passionate about photography and cinematography though it's just a hobby!, anyway scroll down I will tell what I do for a living and why I this built website.
