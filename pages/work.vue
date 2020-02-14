@@ -95,7 +95,7 @@
         <div class="w-full md:w-1/3 p-6 flex">
           <div class="bg-white block p-8">
             <h4 class="font-extrabold text-xl md:text-2xl">
-              Sanyu app
+              SanyuApp
             </h4>
             <p class="mt-1">
               <a href="#" class="text-gray-500" target="_blank">sanyuapp.com</a>
@@ -161,8 +161,9 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'I have worked with Finatech sector for 4+ year and contributed to open source projects'
-        }
+          content: 'I have worked with Fintech sector for 6+ year and contributed to open source projects'
+        },
+        { hid: 'keywords', name: 'keywords', content: `ztenda, Cliqpal, AgroTracker, BorrowerCentral,  Ellington Safaris, SanyuApp` }
       ]
     }
   },

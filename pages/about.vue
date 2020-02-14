@@ -131,12 +131,12 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'About the Author (Siraj Kimuli) and the technology used to build this blog'
+          content: 'About: Siraj Kimuli is Software Engineer, Product Designer and partner at LUCKYGrafics based in Kampala, Uganda'
         },
         {
           hid: 'keywords',
           name: 'keywords',
-          content: 'UI/UX Design, Nuxtjs, Vuejs, Webstorm, Netlify, web development, Ai Writer, photography, API Development, Systems Integration, digital design'
+          content: 'UI/UX Design, Nuxtjs, Vuejs, Webstorm, Netlify, web development, Ai Writer, photography, API Development, Systems Integration, Product design'
         }
       ]
     }
