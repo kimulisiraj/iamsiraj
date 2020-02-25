@@ -34,6 +34,7 @@ module.exports = {
     opacity: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
     borderWidth: ['responsive', 'hover', 'focus'],
     textColor: ['responsive', 'group-hover', 'hover', 'focus'],
+    fontSize: ['responsive', 'group-hover', 'hover', 'focus'],
     transitionDuration: ['responsive', 'hover', 'focus', 'group-hover'],
     transitionProperty: ['responsive', 'hover', 'focus', 'group-hover'],
     transitionTimingFunction: ['responsive', 'hover', 'focus', 'group-hover'],

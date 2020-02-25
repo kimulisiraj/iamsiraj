@@ -1,7 +1,7 @@
 <template>
   <section>
     <!--introduction banner-->
-    <div class="bg-purple z-0">
+    <div class="bg-blue z-0">
       <div class="container flex items-center banner relative">
         <img
           src="~assets/images/siraj-kimuli-mobile.png"
@@ -30,7 +30,7 @@
 
     <!--summary-->
     <div id="content" class="container px-0">
-      <div class="bg-white md:my-24 flex flex-wrap">
+      <div class="bg-white md:my-32 flex flex-wrap">
         <div
           class="w-full lg:w-1/2 px-8 py-16 md:p-16 border-r-0 lg:border-r-4 border-b-4 md:border-b-0 border-gray-100"
         >
@@ -58,8 +58,8 @@
         </div>
         <div class="w-full lg:w-1/2 px-8 py-16 md:p-16">
           <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">
-            I enjoy, <br>
-            writing
+            I enjoy <br>
+            writing too
           </h2>
           <p class="mt-10 md:mt-6">
             About accessibility, <br>
@@ -83,29 +83,29 @@
     </div>
 
     <!--Recent Blog-->
-    <div class="container mt-24 overflow-x-hidden">
+    <div class="container mt-32 overflow-x-hidden">
       <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">
         Recent Blog
       </h2>
       <div class="flex flex-wrap -mx-6 overflow-x-hidden">
-        <BlogCard color="bg-red" to="/blog/the-back-button-a-mistake-google-regrets">
+        <BlogCard to="/blog/breaking-the-current-workflow-for-better-ux">
+          Breaking current the workflow for better User Experience
+          <template v-slot:icon>
+            <span class="text-7xl leading-none p-0">✂️</span>
+          </template>
+        </BlogCard>
+
+        <BlogCard to="/blog/why-you-need-a-design-system">
+          Why you need a design system
+          <template v-slot:icon>
+            <span class="text-7xl leading-none p-0">🗂</span>
+          </template>
+        </BlogCard>
+
+        <BlogCard to="/blog/the-back-button-a-mistake-google-regrets">
           The “Back Button” - A Mistake that google regrets
           <template v-slot:icon>
-            <BackButtonArt class="h-16" />
-          </template>
-        </BlogCard>
-
-        <BlogCard color="bg-yellow" to="blog/free-online-ui-ux-design-resources">
-          Free Online Resources for UX/UI Design
-          <template v-slot:icon>
-            <ResourcesArt class="h-16" />
-          </template>
-        </BlogCard>
-
-        <BlogCard to="/blog/breaking-the-current-workflow-for-better-ux">
-          Breaking current WorkFlow for better User Experience
-          <template v-slot:icon>
-            <WorkflowArt class="h-16" />
+            <span class="text-7xl leading-none p-0 text-gray-100">🔙</span>
           </template>
         </BlogCard>
       </div>
@@ -117,9 +117,6 @@
 import BlogCard from '@/components/BlogCard'
 import ArrowDown from '@/components/svg/ArrowDown'
 import ArrowRight from '@/components/svg/ArrowRight'
-import ResourcesArt from '@/components/svg/ResourcesArt'
-import BackButtonArt from '@/components/svg/BackButtonArt'
-import WorkflowArt from '@/components/svg/WorkflowArt'
 
 export default {
   head () {
@@ -135,16 +132,13 @@ export default {
   components: {
     BlogCard,
     ArrowDown,
-    ArrowRight,
-    ResourcesArt,
-    WorkflowArt,
-    BackButtonArt
+    ArrowRight
   }
 }
 </script>
 <style>
   .siraj-mobile{
-    animation: 10s bringIn;
+    animation: 5s bringIn;
     transform: translateX(0px);
   }
   @keyframes bringIn {

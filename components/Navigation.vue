@@ -3,16 +3,16 @@
     <div class="w-full bg-yellow">
       <div :class="menuOpen?'open':''" class="container flex justify-center items-center menu">
         <div @click="menuOpen = !menuOpen" class="py-12">
-          <nuxt-link to="/" class="duration-150 ease-in hover:opacity-100 text-xl text-white opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
+          <nuxt-link to="/" class="hover:opacity-75 text-xl text-purple font-bold block md:inline mt-6 md:mt-0 mr-6">
             <span>🏠</span> Home
           </nuxt-link>
-          <nuxt-link to="/about" class="hover:opacity-100 text-xl text-white md:opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
+          <nuxt-link to="/about" class="hover:opacity-75 text-xl text-purple font-bold block md:inline mt-6 md:mt-0 mr-6 ">
             <span>🤔</span> About
           </nuxt-link>
-          <nuxt-link to="work" class="hover:opacity-100 text-xl text-white md:opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
+          <nuxt-link to="work" class="hover:opacity-75 text-xl text-purple font-bold block md:inline mt-6 md:mt-0 mr-6">
             <span>💼</span> Work
           </nuxt-link>
-          <nuxt-link to="/blog" class="hover:opacity-100 text-xl text-white md:opacity-75 font-bold block md:inline mt-6 md:mt-0 mr-6">
+          <nuxt-link to="/blog" class="hover:opacity-75 text-xl text-purple font-bold block md:inline mt-6 md:mt-0 mr-6">
             <span>📝</span> Blog
           </nuxt-link>
         </div>
