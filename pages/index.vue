@@ -89,7 +89,7 @@
       </h2>
       <div class="flex flex-wrap -mx-6 overflow-x-hidden">
         <BlogCard to="/blog/breaking-the-current-workflow-for-better-ux">
-          Breaking current the workflow for better User Experience
+          Breaking the current workflow to improve prove productivity.
           <template v-slot:icon>
             <span class="text-7xl leading-none p-0">✂️</span>
           </template>
