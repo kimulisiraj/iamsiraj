@@ -52,7 +52,7 @@
           <nuxt-link to="/about" class="hover:opacity-100 text-lg text-white opacity-50 block md:inline mt-4 md:mt-0 mr-6">
             About
           </nuxt-link>
-          <nuxt-link to="work" class="hover:opacity-100 text-lg text-white opacity-50 block md:inline mt-4 md:mt-0 mr-6">
+          <nuxt-link to="/work" class="hover:opacity-100 text-lg text-white opacity-50 block md:inline mt-4 md:mt-0 mr-6">
             Work
           </nuxt-link>
           <nuxt-link to="/blog" class="hover:opacity-100 text-lg text-white opacity-50 block md:inline mt-4 md:mt-0 mr-6">

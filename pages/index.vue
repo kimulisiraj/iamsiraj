@@ -123,7 +123,7 @@ export default {
     return {
       title: `Siraj Kimuli - Software Engineer`,
       meta: [
-        { hid: 'description', name: 'description', content: `Siraj Kimuli is here to share his experience designing and developing products a software engineer and product designer` },
+        { hid: 'description', name: 'description', content: `Siraj Kimuli is here to share his experience designing and developing products as a software engineer and product designer` },
         { hid: 'og:description', name: 'og:description', content: `Siraj Kimuli is Front-end Engineer and partner at LUCKYGrafics base in Kampala Uganda` },
         { hid: 'keywords', name: 'keywords', content: `Software Engineer, Kimuli Siraje, Web application, Website Design, open source projects, product design, user experience, programmer, writing code` }
       ]
