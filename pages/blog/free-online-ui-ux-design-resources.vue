@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="bg-yellow font-serif -mb-24">
+    <div class="bg-red font-serif -mb-24">
       <div class="container flex items-center banner">
         <div class="w-full lg:w-3/5 mx-auto">
           <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-none">

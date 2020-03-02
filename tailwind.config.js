@@ -18,7 +18,7 @@ module.exports = {
         blue: '#4826D4',
         purple: '#301d55',
         'purple-light': '#CFA3FF',
-        yellow: '#D4BF1F',
+        yellow: '#e6bd3f',
         red: '#CD4C48',
         pink: '#B12475'
       }
@@ -30,7 +30,6 @@ module.exports = {
     }
   },
   variants: {
-    fontSize: ['responsive', 'hover', 'focus'],
     opacity: ['responsive', 'hover', 'focus', 'active', 'group-hover'],
     borderWidth: ['responsive', 'hover', 'focus'],
     textColor: ['responsive', 'group-hover', 'hover', 'focus'],
