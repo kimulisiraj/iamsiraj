@@ -1,7 +1,7 @@
 <template>
   <section>
     <!--introduction banner-->
-    <div class="bg-blue z-0">
+    <div class="bg-purple z-0">
       <div class="container flex items-center banner relative">
         <img
           src="~assets/images/siraj-kimuli-mobile.png"
