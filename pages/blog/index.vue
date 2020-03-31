@@ -20,6 +20,13 @@
     <!--Blog Listing-->
     <div id="content" class="container mt-24 md:mt-32 overflow-x-hidden">
       <div class="flex flex-wrap -mx-6 overflow-x-hidden">
+        <BlogCard color="bg-white" to="/blog/getting-out-of-survival-mode">
+          Getting out of survival mode. ~ Perfect Routines
+          <template v-slot:icon>
+            <span class="text-7xl leading-none p-0">🥵</span>
+          </template>
+        </BlogCard>
+
         <BlogCard color="bg-white" to="/blog/breaking-the-current-workflow-for-better-ux">
           Breaking the current workflow to improve prove productivity
           <template v-slot:icon>

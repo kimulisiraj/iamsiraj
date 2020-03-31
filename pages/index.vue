@@ -102,10 +102,10 @@
           </template>
         </BlogCard>
 
-        <BlogCard to="/blog/the-back-button-a-mistake-google-regrets">
-          The “Back Button” - A Mistake that google regrets
+        <BlogCard color="bg-white" to="/blog/getting-out-of-survival-mode">
+          Getting out of survival mode. ~ Perfect Routines
           <template v-slot:icon>
-            <span class="text-7xl leading-none p-0 text-gray-100">🔙</span>
+            <span class="text-7xl leading-none p-0">🥵</span>
           </template>
         </BlogCard>
       </div>
