@@ -83,17 +83,17 @@ export default {
   name: 'WhyYouNeedADesignSystem',
   head () {
     return {
-      title: `Why you need a design system. - Siraj Kimuli`,
+      title: 'Why you need a design system. - Siraj Kimuli',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: `Design system will help you organize save time & money through better collaboration and consistence`
+          content: 'Design system will help you organize save time & money through better collaboration and consistence'
         },
         {
           hid: 'keywords',
           name: 'keywords',
-          content: `Design Language, Design system, product design, website design, digital products, pattern library`
+          content: 'Design Language, Design system, product design, website design, digital products, pattern library'
         }
       ]
     }

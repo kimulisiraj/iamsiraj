@@ -64,18 +64,18 @@ import BlogCard from '@/components/BlogCard'
 import ArrowDown from '@/components/svg/ArrowDown'
 
 export default {
-  head () {
-    return {
-      title: `Blog - Siraj Kimuli`,
-      meta: [
-        { hid: 'description', name: 'description', content: `I write about UI/UX Design, Product Design & Development, Accessibility and share my career experiences as Software Engineer` },
-        { hid: 'keywords', name: 'keywords', content: `Back button, User Experience, UI/UX Design, Online Resources, Workflow` }
-      ]
-    }
-  },
   components: {
     BlogCard,
     ArrowDown
+  },
+  head () {
+    return {
+      title: 'Blog - Siraj Kimuli',
+      meta: [
+        { hid: 'description', name: 'description', content: 'I write about UI/UX Design, Product Design & Development, Accessibility and share my career experiences as Software Engineer' },
+        { hid: 'keywords', name: 'keywords', content: 'Back button, User Experience, UI/UX Design, Online Resources, Workflow' }
+      ]
+    }
   }
 }
 </script>

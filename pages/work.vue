@@ -154,6 +154,10 @@
 import ArrowDown from '@/components/svg/ArrowDown'
 
 export default {
+
+  components: {
+    ArrowDown
+  },
   head () {
     return {
       title: 'Work / Projects - Siraj Kimuil',
@@ -163,13 +167,9 @@ export default {
           name: 'description',
           content: 'I have worked with Fintech sector for 6+ year and contributed to open source projects'
         },
-        { hid: 'keywords', name: 'keywords', content: `ztenda, Cliqpal, AgroTracker, BorrowerCentral,  Ellington Safaris, SanyuApp` }
+        { hid: 'keywords', name: 'keywords', content: 'ztenda, Cliqpal, AgroTracker, BorrowerCentral,  Ellington Safaris, SanyuApp' }
       ]
     }
-  },
-
-  components: {
-    ArrowDown
   }
 }
 </script>

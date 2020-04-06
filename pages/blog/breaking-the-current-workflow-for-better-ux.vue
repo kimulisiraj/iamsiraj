@@ -57,23 +57,23 @@
 
 <script>
 export default {
+  name: 'BreakingTheCurrentWorkflowForBetterUx',
   head () {
     return {
-      title: `Breaking the current workflow to improve user experience.. - Siraj Kimuli`,
+      title: 'Breaking the current workflow to improve user experience.. - Siraj Kimuli',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: `Break the routine and try out new technologies, it will prove your productivity and experience`
+          content: 'Break the routine and try out new technologies, it will prove your productivity and experience'
         },
         {
           hid: 'keywords',
           name: 'keywords',
-          content: `Workflow, user experience, productivity, Broswer Plugins, Icon Frameworks, product design, Keyframes, CSS Animation, SVG, cssgradient`
+          content: 'Workflow, user experience, productivity, Broswer Plugins, Icon Frameworks, product design, Keyframes, CSS Animation, SVG, cssgradient'
         }
       ]
     }
-  },
-  name: 'BreakingTheCurrentWorkflowForBetterUx'
+  }
 }
 </script>

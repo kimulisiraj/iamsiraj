@@ -134,19 +134,19 @@
 
 <script>
 export default {
+  name: 'DesignFreeOnlineResources',
   head () {
     return {
-      title: `Free Online Resources for UX/UI Design. - Siraj Kimuli`,
+      title: 'Free Online Resources for UX/UI Design. - Siraj Kimuli',
       meta: [
-        { hid: 'description', name: 'description', content: `Free online Resources for UI/UX Designers` },
+        { hid: 'description', name: 'description', content: 'Free online Resources for UI/UX Designers' },
         {
           hid: 'keywords',
           name: 'keywords',
-          content: `Free Design Resources, Background patterns, IDE Settings, Broswer Plugins, Icon Frameworks, product design, Keyframes, CSS Animation, SVG, cssgradient`
+          content: 'Free Design Resources, Background patterns, IDE Settings, Broswer Plugins, Icon Frameworks, product design, Keyframes, CSS Animation, SVG, cssgradient'
         }
       ]
     }
-  },
-  name: 'DesignFreeOnlineResources'
+  }
 }
 </script>

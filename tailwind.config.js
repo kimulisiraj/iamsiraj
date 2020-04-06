@@ -11,8 +11,8 @@ module.exports = {
         '8xl': '6rem'
       },
       height: {
-        '72': '18rem',
-        '80': '20rem'
+        72: '18rem',
+        80: '20rem'
       },
       colors: {
         blue: '#4826D4',
@@ -25,8 +25,8 @@ module.exports = {
     },
 
     fontFamily: {
-      'sans': ['Poppins', '-apple-system', 'BlinkMacSystemFont', 'Helvetica', 'Arial', 'sans-serif'],
-      'serif': ['"IBM Plex Serif"', 'Georgia', 'Cambria']
+      sans: ['Poppins', '-apple-system', 'BlinkMacSystemFont', 'Helvetica', 'Arial', 'sans-serif'],
+      serif: ['"IBM Plex Serif"', 'Georgia', 'Cambria']
     }
   },
   variants: {

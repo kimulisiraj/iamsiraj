@@ -74,12 +74,12 @@
 export default {
   head () {
     return {
-      title: `The "Back button" -A mistake that google regrets`,
+      title: 'The "Back button" -A mistake that google regrets',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: `Explains on how to implement a back button on web applications and website to improve user's experience`
+          content: 'Explains on how to implement a back button on web applications and website to improve user\'s experience'
         }
       ]
     }

@@ -97,19 +97,19 @@
 
 <script>
 export default {
+  name: 'GettingOutOfSurvivalMode',
   head () {
     return {
-      title: `Getting Out Of Survival Mode. - Siraj Kimuli`,
+      title: 'Getting Out Of Survival Mode. - Siraj Kimuli',
       meta: [
-        { hid: 'description', name: 'description', content: `The perfect morning and evening routine to live an happy life.` },
+        { hid: 'description', name: 'description', content: 'The perfect morning and evening routine to live an happy life.' },
         {
           hid: 'keywords',
           name: 'keywords',
-          content: `morning routines, planning, evening routines, survival mode, healthy relationships, prayer, meditation, physical fitness, as a man thinketh`
+          content: 'morning routines, planning, evening routines, survival mode, healthy relationships, prayer, meditation, physical fitness, as a man thinketh'
         }
       ]
     }
-  },
-  name: 'GettingOutOfSurvivalMode'
+  }
 }
 </script>

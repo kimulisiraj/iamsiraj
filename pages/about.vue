@@ -124,6 +124,10 @@
 import ArrowDown from '@/components/svg/ArrowDown'
 
 export default {
+
+  components: {
+    ArrowDown
+  },
   head () {
     return {
       title: 'About - Siraj Kimuli',
@@ -140,10 +144,6 @@ export default {
         }
       ]
     }
-  },
-
-  components: {
-    ArrowDown
   }
 }
 </script>

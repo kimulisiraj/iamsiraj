@@ -2,7 +2,7 @@
   <div class="relative z-40 -mb-20 ">
     <div class="w-full bg-yellow">
       <div :class="menuOpen?'open':''" class="container flex justify-center items-center menu">
-        <div @click="menuOpen = !menuOpen" class="py-12">
+        <div class="py-12" @click="menuOpen = !menuOpen">
           <nuxt-link to="/" class="hover:opacity-75 text-xl text-purple font-bold block md:inline mt-6 md:mt-0 mr-6">
             <span>🏠</span> Home
           </nuxt-link>
@@ -27,8 +27,8 @@
         </span>
       </nuxt-link>
       <button
-        @click="menuOpen = !menuOpen"
         class="hover:border-yellow transition-all duration-300 hover:text-yellow font-bold border-2 border-white text-sm py-2 px-4 focus:outline-none"
+        @click="menuOpen = !menuOpen"
       >
         <span v-show="!menuOpen">Menu</span>
         <span v-show="menuOpen">X</span>
