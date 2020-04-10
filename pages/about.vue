@@ -8,7 +8,7 @@
             <span>🤔</span>About
           </h1>
           <p class="text-white opacity-75 mt-8 text-xlg">
-            I'm passionate about photography and cinematography though it's just a hobby!, anyway scroll down I will tell what I do for a living and why I this built website.
+            I'm passionate about photography and cinematography though it's just a hobby!, anyway scroll down I will tell you what I do for a living and why I this built website.
           </p>
           <a href="#content" class="block mt-8 md:mt-16">
             <ArrowDown />
@@ -26,13 +26,11 @@
         <div class="flex md:flex-no-wrap flex-wrap-reverse">
           <div class="w-full mt-4 md:mt-0 sm:w-4/5 md:w-2/3 lg:w-1/2">
             <p class="text-gray-700">
-              A multidisciplinary software engineer with over 5 + years experience.
+              I'm multidisciplinary software engineer with over 6 + years experience.
               My skill set extends to digital design,
               UX/UI Design, API Development, Systems Integration, working with and leading a team over multiple projects
               and
-              campaigns. I get geeky about creative stuff, will jump at the chance to scuba dive and in another life I
-              would
-              travel the practising photography.
+              campaigns. I get geeky about creative stuff, will jump at the chance to scuba dive.
             </p>
 
             <p class="mt-4 text-gray-700">
@@ -66,11 +64,6 @@
         <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">
           The Site
         </h2>
-        <p class="mt-2 text-gray-700">
-          I write this blog about the design and building web products. My main aim is to guide you on how to design,
-          develop and ship products with the best user experience as you intend in shorts time possible. With this, I
-          cover a mixture of how to design visually appealing web applications and how to write maintainable code.
-        </p>
         <p class="mt-4 text-gray-700">
           My vision for this website is to; teach in-depth ‘web’ related design topics. Help you understand why and
           develop your own rationale. Using different tools.
@@ -86,33 +79,33 @@
           Design: Adobe XD
         </h4>
         <p class="text-gray-700">
-          I have used XD since the first beta, now it a great tool I can trust for prototyping.
+          I have used adobe XD since the first beta, now it a great tool I trust for prototyping.
         </p>
         <h4 class="font-bold mt-4">
           Code: WebStorm
         </h4>
         <p class="text-gray-700">
-          It used to be a slow and heavy editor, now it lighting fast, It my favourite IDE for javascript projects.
+          It used to be a slow and heavy editor, now it's lighting fast, It's my favourite IDE for javascript projects.
         </p>
         <h4 class="font-bold mt-4">
           Writing: iA Writer
         </h4>
         <p class="text-gray-700">
-          A simple markdown editor. All posts start here then are copied and pasted into the CMS. Syncs with iCloud so I
-          can write anywhere.
+          A simple markdown editor. All posts start here then checked by grammarly finally on the site. iA Writer syncs with iCloud so I
+          can write from anywhere on the MAC, ipad or iphone.
         </p>
         <h4 class="font-bold mt-4">
           Hosting: Netlify
         </h4>
         <p class="text-gray-700">
           Its a cloud based hosting service; All I can say about <a href="https://www.netlify.com" target="_blank">netlify</a>
-          everything just works the way they should, linking your repository is all your need to get rolling.
+          everything just works the way they should, linking your repository to their services is all your need to get rolling.
         </p>
         <h4 class="font-bold mt-4">
           Framework: Nuxtjs | Vue
         </h4>
         <p class="text-gray-700">
-          I choose Nuxtjs for Vue because it doesnt introduce other framework syntax and rules to obey to, Nuxtjs just
+          I choose Nuxtjs for Vue because it doesnt introduce syntax and rules to obey unlike other frameworks , Nuxtjs just
           help you organise your vue code I.e a bootstrapper for vue projects.
         </p>
       </div>
@@ -130,7 +123,7 @@ export default {
   },
   head () {
     return {
-      title: 'About - Siraj Kimuli',
+      title: 'About',
       meta: [
         {
           hid: 'description',
