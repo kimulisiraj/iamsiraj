@@ -26,8 +26,8 @@
     <div id="content" class="container mt-8 overflow-x-hidden">
       <div class="w-full lg:w-3/5 mx-auto content">
         <p>
-          We get used to hard to use interfaces and ergonomics that limit our productivity. Here is an example, a
-          QWERTY keyword, I have mastered the QWERTY keyword I know where each key is on the board. However, I read over
+          We get used to most hard user interfaces and ergonomics that limit our productivity. Here is an example, a
+          QWERTY keyword, I have mastered the QWERTY keyboard I know where each key is on the board. However, I read over
           the internet that keys where arrange in the QWERTY format to avoid key collusion on the typewriters, not
           keyboards. QWERTY layout limits your max typing speeding, so they suggest I switch to Dvorak or Colemak. For
           the keyboard am not switching soon this one of the workflows that are hard to break for a better experience
