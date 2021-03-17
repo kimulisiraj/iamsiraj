@@ -1,5 +1,8 @@
 
 module.exports = {
+
+  target: 'static',
+
   /*
   ** Headers of the page
   */
