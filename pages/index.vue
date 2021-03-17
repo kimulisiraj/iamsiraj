@@ -90,21 +90,21 @@
       <div class="flex flex-wrap -mx-6 overflow-x-hidden">
         <BlogCard to="/blog/breaking-the-current-workflow-for-better-ux">
           Breaking the current workflow to improve prove productivity.
-          <template v-slot:icon>
+          <template #icon>
             <span class="text-7xl leading-none p-0">✂️</span>
           </template>
         </BlogCard>
 
         <BlogCard to="/blog/why-you-need-a-design-system">
           Why you need a design system
-          <template v-slot:icon>
+          <template #icon>
             <span class="text-7xl leading-none p-0">🗂</span>
           </template>
         </BlogCard>
 
         <BlogCard color="bg-white" to="/blog/getting-out-of-survival-mode">
           Getting out of survival mode. ~ Perfect Routines
-          <template v-slot:icon>
+          <template #icon>
             <span class="text-7xl leading-none p-0">🥵</span>
           </template>
         </BlogCard>

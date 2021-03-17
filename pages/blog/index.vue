@@ -22,35 +22,35 @@
       <div class="flex flex-wrap -mx-6 overflow-x-hidden">
         <BlogCard color="bg-white" to="/blog/getting-out-of-survival-mode">
           Getting out of survival mode. ~ Perfect Routines
-          <template v-slot:icon>
+          <template #icon>
             <span class="text-7xl leading-none p-0">🥵</span>
           </template>
         </BlogCard>
 
         <BlogCard color="bg-white" to="/blog/breaking-the-current-workflow-for-better-ux">
           Breaking the current workflow to improve prove productivity
-          <template v-slot:icon>
+          <template #icon>
             <span class="text-7xl leading-none p-0">✂️</span>
           </template>
         </BlogCard>
 
         <BlogCard color="bg-blue" to="/blog/why-you-need-a-design-system">
           Why you need a design system
-          <template v-slot:icon>
+          <template #icon>
             <span class="text-7xl leading-none p-0">🗂</span>
           </template>
         </BlogCard>
 
         <BlogCard color="bg-yellow" to="/blog/free-online-ui-ux-design-resources">
           Free Online Resources for UX/UI Design
-          <template v-slot:icon>
+          <template #icon>
             <span class="text-7xl leading-none p-0">🔖</span>
           </template>
         </BlogCard>
 
         <BlogCard color="bg-red" to="/blog/the-back-button-a-mistake-google-regrets">
           The “Back Button” - A Mistake that google regrets
-          <template v-slot:icon>
+          <template #icon>
             <span class="text-7xl leading-none p-0 text-gray-100">🔙</span>
           </template>
         </BlogCard>

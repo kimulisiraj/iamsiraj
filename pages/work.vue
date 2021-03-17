@@ -8,7 +8,7 @@
             <span>💼</span> Work
           </h1>
           <p class="text-white opacity-75 mt-8 text-xlg">
-            I have worked with many teams in different companies and organisations. I will share the journey in the blog section. Here I am sharing the projects am proud of, most Applications others are Open Source Projects and Websites.
+            I have worked with many teams in different companies and organisations. I will share the journey in the blog section. Here I am sharing the projects am proud of; most are web Applications, others are Open Source Projects and Websites.
           </p>
           <a href="#content" class="block mt-8 md:mt-16">
             <ArrowDown />

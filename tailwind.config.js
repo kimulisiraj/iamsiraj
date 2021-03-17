@@ -1,5 +1,17 @@
 module.exports = {
   theme: {
+    purge: {
+      content: [
+        'components/**/*.vue',
+        'layouts/**/*.vue',
+        'pages/**/*.vue',
+        'plugins/**/*.js',
+        'nuxt.config.js',
+        // TypeScript
+        'plugins/**/*.ts',
+        'nuxt.config.ts'
+      ]
+    },
     container: {
       center: true,
       padding: '1em'

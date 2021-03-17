@@ -1,6 +1,5 @@
 
 module.exports = {
-  mode: 'universal',
   /*
   ** Headers of the page
   */
@@ -30,15 +29,16 @@ module.exports = {
   */
   plugins: [
   ],
+
+  telemetry: false,
+
   /*
   ** Nuxt.js dev-modules
   */
   buildModules: [
-    // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
-
+    'nuxt-gsap-module',
     ['@nuxtjs/google-analytics', {
       id: 'UA-157466258-1'
     }]
@@ -47,13 +47,10 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
-    // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
     'nuxt-rfg-icon',
-    // Doc: https://github.com/nuxt-community/sitemap-module#readme
     '@nuxtjs/sitemap'
   ],
   sitemap: {
@@ -66,6 +63,17 @@ module.exports = {
   */
   axios: {
   },
+
+  gsap: {
+    extraPlugins: {
+      text: true
+    }
+  },
+
+  tailwindcss: {
+    jit: true
+  },
+
   /*
   ** Build configuration
   */
