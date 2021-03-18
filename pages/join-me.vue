@@ -1,22 +1,35 @@
--<template>
+<template>
   <div class="bg-gray-900 h-screen w-screen items-center flex justify-center relative">
-    <div class="container">
-      <h1 class="text-white text-5xl leading-tight">
-        <span class="text-5xl">😊</span>
-        Hey
-        <span class="text-yellow font-semibold">Mwiine.</span>
+    <div class="px-6 w-full">
+      <h1 class="text-white text-3xl leading-tight flex items-center">
+        <span class="smile">😊</span>
+        <span class="hey ml-2">Hey
+          <span class="text-yellow font-semibold">Mwiine.</span>
+        </span>
       </h1>
-      <p class="text-red mt-6 text-xl demo">
-        Would you join me for <strike>Donna 🤪</strike> Dinner ?
-      </p>
-      <p class="text-red mt-2">
-        Friday [18:00Hrs] is blocked for you.
-      </p>
-      <div class="mt-10 bottom-0">
-        <a href="https://wa.me/256783211244?text=Yes" target="_blank" class="font-bold text-xl text-white border-2 border-white py-2 px-4">Yes 😋</a>
-        <button disabled class="cursor-not-allowed ml-4 font-bold opacity-25 text-xl text-white border-2 border-white py-2 px-4">
-          No 🥵
-        </button>
+      <div class="px-10">
+        <p class="text-red mt-6 text-xl demo" />
+        <p class="text-red mt-2 time" />
+
+        <div class="mt-10 bottom-0 buttons flex flex-col flex-wrap">
+          <a
+            href="https://wa.me/256783211244?text=Yes"
+            target="_blank"
+            class="yes-button font-bold text-center text-lg text-yellow border-2 border-yellow py-2 px-4"
+          >Yes <span
+            class="happy"
+          >😋</span></a>
+          <a
+            href="https://wa.me/256783211244?text=Yes"
+            target="_blank"
+            class="opacity-50 text-center font-bold mt-2 text-lg text-white border-2 border-white py-2 px-4 hover:scale-50"
+          >May be another day 🙄</a>
+        </div>
+      </div>
+      <div class="fixed bottom-0 right-0 text-6xl flex justify-center w-full">
+        <div class="shy">
+          🙈
+        </div>
       </div>
     </div>
   </div>
@@ -29,7 +42,7 @@ export default {
 
   data () {
     return {
-      feelings: '😍😜🤭🥳🤩😊'
+      feelings: ['😍😜🤭🥳🤩😊']
     }
   },
   mounted () {
@@ -37,15 +50,67 @@ export default {
   },
   methods: {
     animate () {
-      // [...this.feelings].forEach(f => this.$gsap.to('.demo', {
-      //   text: f,
-      //   duration: 2
-      // }))
       const tl = this.$gsap.timeline()
-      tl.to('.demo', {
-        text: 'We are <strike>testing</strike>',
-        duration: 2
+
+      this.$gsap.to('.yes-button', {
+        scale: 1.05,
+        repeat: -1,
+        ease: 'power1.out',
+        duration: 1,
+        yoyo: true
       })
+
+      tl.set('.smile', {
+        opacity: 0,
+        x: 100
+      }).from('.smile', {
+        opacity: 0,
+        x: 20,
+        ease: 'back.out(1.7)',
+        scale: 0.2,
+        duration: 0.5
+      })
+        .from('.hey', {
+          opacity: 0,
+          duration: 0.5,
+          ease: 'power4.out',
+          x: -20
+        })
+        .to('.demo', {
+          text: 'You\'re Smart 🤔',
+          ease: 'power2.out',
+          duration: 2
+        })
+        .to('.demo', {
+          text: 'You\'re Beautiful 👸',
+          duration: 2
+        })
+        .to('.demo', {
+          text: 'You\'re Wonderful 🤪',
+          duration: 2
+        })
+        .to('.demo', {
+          text: '',
+          duration: 2
+        })
+        .to('.demo', {
+          text: ' Would you join me for <strike>Donna 🤪</strike> Dinner ?',
+          duration: 3
+        })
+        .to('.time', {
+          text: 'I suggest Friday [18:00Hrs].',
+          duration: 2.5
+        })
+        .from('.buttons', {
+          opacity: 0,
+          duration: 1,
+          y: 10,
+          ease: 'power2.out'
+        })
+        .from('.shy', {
+          opacity: 0,
+          y: 30
+        })
     }
   }
 }
