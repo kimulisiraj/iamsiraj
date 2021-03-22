@@ -1,6 +1,6 @@
 <template>
   <div v-cloak id="content" class="bg-gray-900 h-screen w-screen items-center flex justify-center relative">
-    <div class="px-6 w-full" style="max-width: 480px">
+    <div class="px-6 w-full info" style="max-width: 480px">
       <h1 class="text-white text-5xl leading-tight flex justify-center flex-col items-center transition-all ease-in duration-75">
         <span class="smile text-8xl">😊</span>
         <span class="hey ml-2">Hey
@@ -19,14 +19,12 @@
           <a
             href="https://wa.me/256783211244?text=Yes"
             target="_blank"
-            class="yes-button font-bold text-center text-yellow border-2 border-yellow py-2 px-4"
-          >Yes <span
-            class="happy"
-          >😋</span></a>
+            class="yes-button font-bold text-center text-yellow border-2 border-yellow py-2 px-4 rounded"
+          >Yes <span class="text-lg">☕️</span></a>
           <a
             href="https://wa.me/256783211244?text=Yes, next Friday."
             target="_blank"
-            class="opacity-30 text-center font-bold mt-4 text-white border-2 border-white py-2 px-4 hover:scale-50"
+            class="opacity-30 text-center rounded font-bold mt-4 text-white border-2 border-white py-2 px-4 hover:scale-50"
           >Maybe another day 🙄</a>
         </div>
       </div>
@@ -43,12 +41,12 @@
 export default {
   name: 'JoinMe',
   layout: 'would',
-
-  data () {
+  head () {
     return {
-      feelings: ['😍😜🤭🥳🤩😊']
+      title: 'Hey Donna'
     }
   },
+
   mounted () {
     this.animate()
   },
@@ -65,14 +63,17 @@ export default {
         yoyo: true
       })
 
-      tl.from('.smile', {
-        delay: 1,
-        opacity: 0,
-        x: 0,
-        ease: 'back.out(1.7)',
-        scale: 0.2,
-        duration: 1
+      tl.to('.info', {
+        opacity: 1
       })
+        .from('.smile', {
+          delay: 1,
+          opacity: 0,
+          x: 0,
+          ease: 'back.out(1.7)',
+          scale: 0.2,
+          duration: 1
+        })
         .from('.hey', {
           opacity: 0,
           duration: 0.5,
@@ -122,6 +123,9 @@ export default {
 }
 </script>
 <style>
+  .content{
+    opacity: 0;
+  }
   [v-cloak]{
     display: none;
   }
