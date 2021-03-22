@@ -123,7 +123,7 @@ export default {
 }
 </script>
 <style>
-  .content{
+  .info{
     opacity: 0;
   }
   [v-cloak]{
