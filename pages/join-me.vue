@@ -22,7 +22,7 @@
             class="yes-button font-bold text-center text-yellow border-2 border-yellow py-2 px-4 rounded"
           >Yes <span class="text-lg">☕️</span></a>
           <a
-            href="https://wa.me/256783211244?text=Yes, next Friday."
+            href="https://wa.me/256783211244?text=Yes, though I suggest next..."
             target="_blank"
             class="opacity-30 text-center rounded font-bold mt-4 text-white border-2 border-white py-2 px-4 hover:scale-50"
           >Maybe another day 🙄</a>
@@ -43,7 +43,7 @@ export default {
   layout: 'would',
   head () {
     return {
-      title: 'Hey Donna'
+      title: 'Happiness'
     }
   },
 
@@ -82,17 +82,9 @@ export default {
         })
         .to('.demo', {
           delay: 1,
-          text: 'You\'re Smart 🤔',
+          text: 'I find you very brilliant & beautiful; <br/ > I want to know more... 🤔',
           ease: 'power2.out',
-          duration: 2
-        })
-        .to('.demo', {
-          text: 'You\'re Beautiful 👸',
-          duration: 2
-        })
-        .to('.demo', {
-          text: 'You\'re Wonderful 🤪',
-          duration: 2
+          duration: 10
         })
         .to('.demo', {
           text: '.',
@@ -103,7 +95,7 @@ export default {
           duration: 2
         })
         .to('.time', {
-          text: 'I suggest Friday [18:00Hrs].',
+          text: 'I suggest Saturday [18:00Hrs].',
           duration: 2
         })
         .from('.buttons', {
