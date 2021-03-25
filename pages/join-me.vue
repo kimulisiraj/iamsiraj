@@ -82,7 +82,7 @@ export default {
         })
         .to('.demo', {
           delay: 1,
-          text: 'I find you very brilliant & beautiful; <br/ > I want to know more... 🤔',
+          text: 'I find you brilliant & beautiful; <br/ > I want to know more... 🤔',
           ease: 'power2.out',
           duration: 10
         })
