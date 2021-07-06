@@ -36,6 +36,6 @@
     "eslint-plugin-nuxt": "^2.0.0",
     "nodemon": "^2.0.2",
     "nuxt-gsap-module": "^1.2.1",
-    "postcss": "^8.2.8"
+    "postcss": "^8.2.10"
   }
 }
