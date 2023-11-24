@@ -23,25 +23,21 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'WorkCard',
-
-  props: {
-    tagLine: {
-      type: String,
-      required: false,
-      default: null
-    },
-    title: {
-      type: String,
-      required: true
-    },
-    url: {
-      type: String,
-      required: false,
-      default: null
-    }
+<script setup lang="ts">
+defineProps({
+  tagLine: {
+    type: String,
+    required: false,
+    default: null
+  },
+  title: {
+    type: String,
+    required: true
+  },
+  url: {
+    type: String,
+    required: false,
+    default: null
   }
-}
+})
 </script>

@@ -37,18 +37,12 @@
   </div>
 </template>
 
-<script>
+<script setup lang="ts">
 import ArrowRight from '@/components/svg/ArrowRight'
-export default {
-  name: 'Navigation',
-  components: { ArrowRight },
-  data () {
-    return {
-      menuOpen: false
-    }
-  }
-}
+import {ref} from "vue";
+const menuOpen = ref(false)
 </script>
+
 <style scoped>
   .menu{
     @apply h-0 opacity-0 overflow-hidden;

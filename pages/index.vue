@@ -1,6 +1,5 @@
 <template>
   <section>
-    <!--introduction banner-->
     <div class="bg-purple z-0">
       <div class="container flex items-center banner relative">
         <img
@@ -113,28 +112,12 @@
   </section>
 </template>
 
-<script>
-import BlogCard from '@/components/BlogCard'
-import ArrowDown from '@/components/svg/ArrowDown'
-import ArrowRight from '@/components/svg/ArrowRight'
-
-export default {
-  components: {
-    BlogCard,
-    ArrowDown,
-    ArrowRight
-  },
-  head () {
-    return {
-      title: 'Siraj Kimuli - Software Engineer',
-      meta: [
-        { hid: 'description', name: 'description', content: 'Siraj Kimuli is here to share his experience designing and developing products as a software engineer and product designer' },
-        { hid: 'og:description', name: 'og:description', content: 'Siraj Kimuli is Front-end Engineer and partner at LUCKYGrafics base in Kampala Uganda' },
-        { hid: 'keywords', name: 'keywords', content: 'Software Engineer, Kimuli Siraje, Web application, Website Design, open source projects, product design, user experience, programmer, writing code' }
-      ]
-    }
-  }
-}
+<script setup lang="ts">
+useSeoMeta({
+  title: 'Siraj Kimuli - Software Engineer',
+  ogTitle: 'Siraj Kimuli - Software Engineer',
+  description: 'Siraj Kimuli is here to share his experience designing and developing products as a software engineer and product designer' ,
+})
 </script>
 <style>
   .siraj-mobile{
